@@ -19,7 +19,8 @@
     ],
     "must_not_require": [
       "Direct ongoing patient care responsibilities",
-      "Direct clinical supervision of practicing staff"
+      "Direct clinical supervision of practicing staff",
+      "Role primarily or solely focused on clinical research or clinical studies — clinical research can be one element of the job but should not be the dominant or defining responsibility"
     ],
     "ideal_intersection": "Clinical medicine + product + sales/customer relationships, applied to using AI to improve healthcare delivery or outcomes",
     "title_flexibility": "Does not need to be 'Chief Medical Officer' specifically. Open to VP/Director/Head-level titles, as long as a medical/clinical background (MD or equivalent) is a stated requirement or a clear differentiator for the role.",
@@ -38,6 +39,7 @@
       "Pure EHR / legacy health IT vendors (e.g. Epic, Cerner, Athenahealth)"
     ],
     "clinical_domain_preference": "Cast a wide net across digital health/health AI. Favor roles where a general medicine or emergency medicine background is a clear advantage (e.g. acute care, urgent care, primary care, care navigation/triage, remote monitoring, multi-specialty platforms). De-prioritize (but don't hard-exclude) companies narrowly focused on surgery or mental health, where the EM/general background is less of a differentiator.",
+    "product_mission_preference": "Strong preference for companies whose core product directly improves clinical care quality, patient outcomes, or clinical decision-making. De-prioritize companies whose primary value proposition is hospital business operations, revenue cycle management, billing optimization, or coding accuracy — even if they use AI and sell to health systems. Examples of preferred focus: diagnosis support, care navigation, treatment optimization, patient monitoring, clinical workflow tools used by clinicians at the point of care. Examples to score lower: CDI (clinical documentation improvement for billing), RCM automation, prior auth processing.",
     "geography": "Company HQ can be anywhere, but the product/role should be US-focused"
   },
   "logistics": {
@@ -61,8 +63,11 @@
   },
   "watchlist": {
     "include_companies": [],
-    "exclude_companies": [],
-    "note": "Empty for now — to be refined over time based on digest feedback. Add company names here to always include or always exclude regardless of other criteria."
+    "exclude_companies": ["SmarterDx"],
+    "scoring_notes": {
+      "SmarterDx": "Excluded — product is primarily CDI/revenue cycle (billing optimization), not direct clinical care improvement. Josh prefers companies whose core product improves clinical outcomes."
+    },
+    "note": "Add company names to include_companies (always surface regardless of other criteria) or exclude_companies (never surface). scoring_notes is for informal guidance on companies seen before."
   },
   "digest": {
     "delivery": "push_notification",
