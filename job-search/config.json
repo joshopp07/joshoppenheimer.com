@@ -1,0 +1,72 @@
+{
+  "candidate": {
+    "name": "Josh Oppenheimer",
+    "credentials": "MD (Icahn School of Medicine at Mount Sinai), MBA (Cambridge Judge Business School), AB Public & International Affairs (Princeton), board-certified Emergency Medicine, practicing physician in DC/Maryland",
+    "background": "Co-founded Transformative AI during residency; served as CMO and ultimately CEO through 2023. Built AI to predict/prevent Sudden Cardiac Arrest, raised $4M+ (Wellcome Trust, Innovate UK), led a team of 8, ran clinical research with hospitals in the US/UK/Estonia, engaged FDA on regulatory pathway (SaMD). Full founder journey: fundraising, team-building, co-founder departure, winding down the company. Now advises early-stage health AI founders on product strategy, GTM, sales, and regulatory pathways.",
+    "strengths_for_matching": [
+      "General/Emergency Medicine clinical background (not surgical or mental-health-specific)",
+      "Product strategy and clinical workflow integration",
+      "Sales / BD / customer relationships in healthcare settings",
+      "FDA and regulatory navigation (SaMD, HIPAA)",
+      "Founder/CEO experience including fundraising, scaling, and winding down a company"
+    ]
+  },
+  "role_preferences": {
+    "functions_of_interest": [
+      "Clinical/Medical Affairs roles that are NOT direct patient care (e.g. Medical Director of Product, Head of Clinical Strategy, VP Medical Affairs)",
+      "Product (VP Product, Chief Product Officer, Head of Product)",
+      "BD / Partnerships / Sales (VP Business Development, Head of Partnerships, VP Sales, Head of Customer Success)"
+    ],
+    "must_not_require": [
+      "Direct ongoing patient care responsibilities",
+      "Direct clinical supervision of practicing staff"
+    ],
+    "ideal_intersection": "Clinical medicine + product + sales/customer relationships, applied to using AI to improve healthcare delivery or outcomes",
+    "title_flexibility": "Does not need to be 'Chief Medical Officer' specifically. Open to VP/Director/Head-level titles, as long as a medical/clinical background (MD or equivalent) is a stated requirement or a clear differentiator for the role.",
+    "requires_clinical_background": true
+  },
+  "company_preferences": {
+    "sector": "Digital health / health AI",
+    "stage": ["Seed", "Series A", "Series B", "Series C+"],
+    "late_stage_note": "Open to late-stage/public companies only if culture reads as dynamic and fast-moving, not bureaucratic. De-prioritize large, slow-moving incumbents.",
+    "exclude_employer_types": [
+      "Health insurers / payers (e.g. Aetna, UnitedHealth, BCBS and subsidiaries)",
+      "Hospital systems / health systems as direct employer",
+      "Pharma / biotech (drug development companies)",
+      "Pure EHR / legacy health IT vendors (e.g. Epic, Cerner, Athenahealth)"
+    ],
+    "clinical_domain_preference": "Cast a wide net across digital health/health AI. Favor roles where a general medicine or emergency medicine background is a clear advantage (e.g. acute care, urgent care, primary care, care navigation/triage, remote monitoring, multi-specialty platforms). De-prioritize (but don't hard-exclude) companies narrowly focused on surgery or mental health, where the EM/general background is less of a differentiator.",
+    "geography": "Company HQ can be anywhere, but the product/role should be US-focused"
+  },
+  "logistics": {
+    "location_preference": "Remote, or hybrid in the DC/Maryland area (any in-office frequency is acceptable, not a filter)",
+    "travel_tolerance_pct": 25,
+    "min_base_salary_usd": 200000,
+    "salary_filter_note": "If salary is not listed, do not auto-exclude — include if otherwise a strong match and flag salary as 'not listed'. Exclude only if a listed range falls entirely below the floor."
+  },
+  "sourcing": {
+    "boards": [
+      "LinkedIn Jobs",
+      "Wellfound (AngelList Talent)",
+      "Hacker News 'Who's Hiring' monthly thread",
+      "Rock Health job board",
+      "HLTH job board",
+      "General web search for relevant role titles + 'digital health' / 'health AI'"
+    ],
+    "posting_age_max_days": 7,
+    "vc_portfolios_to_check": []
+  },
+  "watchlist": {
+    "include_companies": [],
+    "exclude_companies": [],
+    "note": "Empty for now — to be refined over time based on digest feedback. Add company names here to always include or always exclude regardless of other criteria."
+  },
+  "digest": {
+    "delivery": "push_notification",
+    "send_time_local": "07:30-08:00 America/New_York",
+    "skip_if_empty": true,
+    "max_results": null,
+    "include_fields": ["match_score_and_reasoning", "company_stage_and_funding", "salary_range", "apply_link"],
+    "note": "max_results is intentionally uncapped while the system is being tuned — Josh wants more data to give feedback on, not a pre-filtered trickle."
+  }
+}
