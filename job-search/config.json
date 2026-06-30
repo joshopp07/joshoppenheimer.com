@@ -23,7 +23,9 @@
     ],
     "ideal_intersection": "Clinical medicine + product + sales/customer relationships, applied to using AI to improve healthcare delivery or outcomes",
     "title_flexibility": "Does not need to be 'Chief Medical Officer' specifically. Open to VP/Director/Head-level titles, as long as a medical/clinical background (MD or equivalent) is a stated requirement or a clear differentiator for the role.",
-    "requires_clinical_background": true
+    "requires_clinical_background": true,
+    "engagement_types": ["Full-time", "Fractional / part-time exec (e.g. Fractional CMO, Fractional Head of Clinical/Product)"],
+    "engagement_note": "Fractional and part-time executive roles are welcome alongside full-time roles. Apply the same functional/exclusion/domain criteria; for fractional roles, treat the min_base_salary_usd floor as a pro-rated/retainer-equivalent guide rather than a strict full-time-equivalent cutoff — use judgment and flag the compensation structure (e.g. day rate, monthly retainer, equity) in the digest."
   },
   "company_preferences": {
     "sector": "Digital health / health AI",
@@ -51,7 +53,8 @@
       "Hacker News 'Who's Hiring' monthly thread",
       "Rock Health job board",
       "HLTH job board",
-      "General web search for relevant role titles + 'digital health' / 'health AI'"
+      "General web search for relevant role titles + 'digital health' / 'health AI'",
+      "General web search for 'fractional CMO' / 'fractional medical director' / 'fractional clinical advisor' + 'digital health' / 'health AI'"
     ],
     "posting_age_max_days": 7,
     "vc_portfolios_to_check": []
