@@ -1,3 +1,96 @@
 {
-  "seen_listings": []
+  "seen_listings": [
+    {
+      "company": "Prenosis",
+      "announcement": "Series A $20M + $20M BARDA contract ($40M total) — AI sepsis diagnostics, Sepsis ImmunoScore (FDA de novo), precision medicine for critical care",
+      "url": "https://prenosis.com/news/prenosis-announces-barda-contract-series-a-financing-round/",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "Cadence",
+      "announcement": "Series C $100M (Spark Capital) — AI-powered chronic disease management at home (hypertension, diabetes, heart failure, COPD), 100K+ active patients",
+      "url": "https://www.cadence.care/post/cadence-raises-100m-series-c-led-by-spark-capital-to-automate-chronic-care/",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "OpenEvidence",
+      "announcement": "Series D $250M (Thrive Capital + DST Global, $12B valuation) — AI clinical decision support and medical reference for physicians, 40%+ of US physicians, 18M+ monthly consultations",
+      "url": "https://www.businesswire.com/news/home/20260121029132/en/OpenEvidence-Raises-$250-Million-to-Build-Medical-Superintelligence-for-Doctors",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "Assort Health",
+      "announcement": "Series C $120M (Menlo Ventures, $1.2B valuation) — AI voice agents for patient access, scheduling, intake, follow-up; 190M+ patient interactions",
+      "url": "https://www.assorthealth.com/blog/assort-health-raises-120-million-series-c-to-scale-largest-deployment-of-ai-agents-for-the-patient-journey",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "xCures",
+      "announcement": "Series B $46M (Innovius Capital) — AI to structure fragmented medical records and unstructured EHR data, 300M+ records processed",
+      "url": "https://xcures.com/series-b/",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "Vista AI",
+      "announcement": "Series B $29.5M (Khosla Ventures + health system investors) — AI-guided automated MRI scanning and acquisition, radiology workflow automation",
+      "url": "https://vista.ai/vista-ai-secures-29-5m-in-series-b-funding-as-health-systems-back-automated-mri-scanning/",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded from digest — radiology-specific domain, not a fit for EM/general medicine background"
+    },
+    {
+      "company": "Doctronic",
+      "announcement": "Series B $40M (Lightspeed + Abstract) — AI autonomous medical consultations and prescription renewal; first AI to legally renew prescriptions in US",
+      "url": "https://www.businesswire.com/news/home/20260324814372/en/Doctronic-Raises-$40M-Series-B-Following-Breakthrough-as-First-AI-to-Legally-Renew-Prescriptions-in-the-U.S.",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Qualified Health",
+      "announcement": "Series B $125M — enterprise AI platform for health systems (AI governance, evaluation, deployment); CMO is Dr. Kedar Mate (former IHI CEO)",
+      "url": "https://www.qualifiedhealthai.com/",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Nitra",
+      "announcement": "Series A+B $187M combined (NEA, Pantera) — AI-native operating system for healthcare practices (finance, procurement, patient management); Dr. Richard Park on board",
+      "url": "https://hitconsultant.net/2026/03/13/nitra-187m-funding-ai-native-healthcare-operating-system-back-office/",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Low fit — practice management back-office operations, not clinical care; no outpatient clinic expertise to offer"
+    },
+    {
+      "company": "Amperos Health",
+      "announcement": "Series A $16M — AI-native denial management solution (RCM)",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/amperos-health-secures-16m-series-funding-announces-industrys-new-first-ai",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "EXCLUDED",
+      "notes": "Excluded — denial management / RCM, not clinical care improvement"
+    },
+    {
+      "company": "Artera",
+      "announcement": "Growth round $65M (Lead Edge Capital) — AI agents for patient communication, $100M CARR",
+      "url": "https://artera.io/news/artera-secures-65m-growth-investment/",
+      "date_found": "2026-07-01",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "December 2025 raise, outside 7-day window for automated runs"
+    }
+  ]
 }
