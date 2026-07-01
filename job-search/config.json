@@ -26,7 +26,7 @@
     "title_flexibility": "Does not need to be 'Chief Medical Officer' specifically. Open to VP/Director/Head-level titles, as long as a medical/clinical background (MD or equivalent) is a stated requirement or a clear differentiator for the role.",
     "requires_clinical_background": true,
     "engagement_types": ["Full-time", "Fractional / part-time exec (e.g. Fractional CMO, Fractional Head of Clinical/Product)"],
-    "engagement_note": "Fractional and part-time executive roles are welcome alongside full-time roles. Apply the same functional/exclusion/domain criteria; for fractional roles, treat the min_base_salary_usd floor as a pro-rated/retainer-equivalent guide rather than a strict full-time-equivalent cutoff — use judgment and flag the compensation structure (e.g. day rate, monthly retainer, equity) in the digest."
+    "engagement_note": "Fractional and part-time executive roles are welcome alongside full-time roles. Apply the same functional/exclusion/domain criteria; for fractional roles, treat the min_base_salary_usd floor as a pro-rated/retainer-equivalent guide rather than a strict full-time-equivalent cutoff — use judgment and flag the compensation structure (e.g. day rate, monthly retainer, equity) in the digest. Note: niche fractional roles (e.g. geriatrics-focused home health CMO) are acceptable on a fractional basis even when the clinical domain is less central to Josh's background."
   },
   "company_preferences": {
     "sector": "Digital health / health AI",
@@ -38,43 +38,78 @@
       "Pharma / biotech (drug development companies)",
       "Pure EHR / legacy health IT vendors (e.g. Epic, Cerner, Athenahealth)"
     ],
-    "clinical_domain_preference": "Cast a wide net across digital health/health AI. Favor roles where a general medicine or emergency medicine background is a clear advantage (e.g. acute care, urgent care, primary care, care navigation/triage, remote monitoring, multi-specialty platforms). De-prioritize (but don't hard-exclude) companies narrowly focused on surgery or mental health, where the EM/general background is less of a differentiator.",
+    "clinical_domain_preference": "Cast a wide net across digital health/health AI. Favor roles where a general medicine or emergency medicine background is a clear advantage (e.g. acute care, urgent care, primary care, care navigation/triage, remote monitoring, multi-specialty platforms). De-prioritize (but don't hard-exclude) companies narrowly focused on surgery or mental health, where the EM/general background is less of a differentiator. Consumer wellness / non-medical wearables (e.g. fitness trackers) score low — prefer companies whose product touches actual clinical care.",
     "product_mission_preference": "Strong preference for companies whose core product directly improves clinical care quality, patient outcomes, or clinical decision-making. De-prioritize companies whose primary value proposition is hospital business operations, revenue cycle management, billing optimization, or coding accuracy — even if they use AI and sell to health systems. Examples of preferred focus: diagnosis support, care navigation, treatment optimization, patient monitoring, clinical workflow tools used by clinicians at the point of care. Examples to score lower: CDI (clinical documentation improvement for billing), RCM automation, prior auth processing.",
     "geography": "Company HQ can be anywhere, but the product/role should be US-focused"
   },
   "logistics": {
     "location_preference": "Remote, or hybrid in the DC/Maryland area (any in-office frequency is acceptable, not a filter)",
     "travel_tolerance_pct": 25,
+    "travel_exception": "Will consider roles requiring more than 25% travel ONLY if the base salary is explicitly listed at $400,000 or above. If salary is not listed and travel appears to exceed 25%, include the listing but flag the travel concern prominently.",
     "min_base_salary_usd": 200000,
     "salary_filter_note": "If salary is not listed, do not auto-exclude — include if otherwise a strong match and flag salary as 'not listed'. Exclude only if a listed range falls entirely below the floor."
   },
   "sourcing": {
-    "boards": [
+    "job_boards": [
       "LinkedIn Jobs",
       "Wellfound (AngelList Talent)",
       "Hacker News 'Who's Hiring' monthly thread",
       "Rock Health job board",
       "HLTH job board",
+      "fractionaljobs.io (for fractional/part-time exec roles)",
+      "gofractional.com (for fractional/part-time exec roles)",
       "General web search for relevant role titles + 'digital health' / 'health AI'",
       "General web search for 'fractional CMO' / 'fractional medical director' / 'fractional clinical advisor' + 'digital health' / 'health AI'"
     ],
+    "funding_alert_sources": [
+      "TechCrunch health/digital health section",
+      "Fierce Healthcare funding news",
+      "MobiHealthNews funding announcements",
+      "Rock Health funding tracker",
+      "PR Newswire / BusinessWire health AI funding press releases",
+      "Crunchbase / PitchBook recent health AI raises",
+      "General web search: 'health AI' OR 'digital health' funding raised million 2026"
+    ],
     "posting_age_max_days": 7,
+    "funding_alert_age_max_days": 7,
     "vc_portfolios_to_check": []
+  },
+  "funding_alerts": {
+    "enabled": true,
+    "min_raise_usd": 15000000,
+    "target_sectors": ["health AI", "digital health", "clinical AI", "medtech AI"],
+    "exclude_sectors": ["pharma", "biotech drug development", "health insurance", "hospital systems", "pure EHR"],
+    "logic": {
+      "seed_or_series_a": "Flag if the company has NO physician (MD/DO) on the founding team or listed leadership. Josh would reach out to a board member, investor, or team member to explore whether they are considering a CMO hire enabled by the new capital. Priority: HIGH.",
+      "series_b_or_later": "Flag even if they already have an MD on the team — they are likely expanding the team and may be creating new clinical leadership roles. Josh would reach out to explore upcoming hiring plans. Priority: MEDIUM.",
+      "any_stage_no_md": "If a company at any stage raised $15M+ and has no MD on leadership, flag as HIGH priority outreach regardless of round."
+    },
+    "outreach_target": "Identify the best outreach contact for each flagged company: founding CEO (if accessible), lead investor (partner at lead VC firm), or a known team member. Include their name and LinkedIn URL if findable.",
+    "digest_section": "Include as a separate 'Outreach Opportunities' section in the digest, after job listings. Each entry: company name, amount raised, round, lead investor(s), clinical AI product description, whether they have an MD on team, outreach target, and 1-sentence rationale for why Josh's background is relevant."
   },
   "watchlist": {
     "include_companies": [],
     "exclude_companies": ["SmarterDx"],
     "scoring_notes": {
-      "SmarterDx": "Excluded — product is primarily CDI/revenue cycle (billing optimization), not direct clinical care improvement. Josh prefers companies whose core product improves clinical outcomes."
+      "SmarterDx": "Excluded — product is primarily CDI/revenue cycle (billing optimization), not direct clinical care improvement.",
+      "Hippocratic AI": "Deprioritize roles with >25% travel unless base salary is explicitly $400k+. MD/DO-required customer success roles are relevant but flag travel requirement.",
+      "Whoop": "Score low (4/10) — consumer wearable/fitness tracker, not clinical care AI. Salary also likely below floor.",
+      "Navina": "Keep an eye on — Series C primary care AI, worth checking if Senior Medical Manager requires MD. Direct company URL format may not work; find apply link via LinkedIn or Greenhouse instead.",
+      "Bayesian Health": "Fractional roles OK but flag if the primary responsibility is clinical studies/regulatory submissions rather than product/commercial work.",
+      "Jukebox Health": "Fractional/niche roles acceptable even though geriatrics focus is not Josh's primary domain."
     },
-    "note": "Add company names to include_companies (always surface regardless of other criteria) or exclude_companies (never surface). scoring_notes is for informal guidance on companies seen before."
+    "note": "Add company names to include_companies (always surface regardless of other criteria) or exclude_companies (never surface). scoring_notes is informal guidance on companies seen before."
   },
   "digest": {
     "delivery": "push_notification",
     "send_time_local": "07:30-08:00 America/New_York",
     "skip_if_empty": true,
     "max_results": null,
+    "sections": [
+      "Job Listings (ranked by match score)",
+      "Outreach Opportunities (recently funded companies worth a cold outreach)"
+    ],
     "include_fields": ["match_score_and_reasoning", "company_stage_and_funding", "salary_range", "apply_link"],
-    "note": "max_results is intentionally uncapped while the system is being tuned — Josh wants more data to give feedback on, not a pre-filtered trickle."
+    "note": "max_results is intentionally uncapped while the system is being tuned. Send digest only if there is at least one item in either the job listings OR outreach opportunities section."
   }
 }
