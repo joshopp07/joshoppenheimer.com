@@ -1,0 +1,35 @@
+name: Daily Job Search Digest
+
+on:
+  schedule:
+    # 12:53 UTC = 7:53 AM EST (winter) / 8:53 AM EDT (summer) — within the desired window year-round
+    - cron: '53 12 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/job-posting-digest-6pcrvg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - uses: anthropics/claude-code-action@beta
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          allowed_tools: "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+          prompt: |
+            The repository is already checked out on branch `claude/job-posting-digest-6pcrvg`.
+            Read `job-search/PROMPT.md` for full instructions, then execute the daily job search
+            digest from start to finish — job listing search, funding alerts, write the results
+            file, update seen.json, and commit + push. Skip the clone/checkout step; the working
+            directory is already set up.
