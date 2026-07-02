@@ -2,8 +2,9 @@ name: Daily Job Search Digest
 
 on:
   schedule:
-    - cron: '37 11 * * *'  # 7:37 AM EDT (UTC-4); shifts to 6:37 AM EST in winter
-  workflow_dispatch:       # allow manual runs to test
+    # 12:53 UTC = 7:53 AM EST (winter) / 8:53 AM EDT (summer) — within the desired window year-round
+    - cron: '53 12 * * *'
+  workflow_dispatch: {}
 
 jobs:
   digest:
