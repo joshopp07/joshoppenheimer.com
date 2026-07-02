@@ -2,7 +2,7 @@ name: Daily Job Search Digest
 
 on:
   schedule:
-    # 12:53 UTC = 7:53 AM EST (winter) / 8:53 AM EDT (summer) — within the desired window year-round
+    # 12:53 UTC = 7:53 AM EST (winter) / 8:53 AM EDT (summer)
     - cron: '53 12 * * *'
   workflow_dispatch: {}
 
@@ -22,14 +22,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/joshopp07/joshoppenheimer.com.git
 
-      - uses: anthropics/claude-code-action@beta
+      - uses: actions/setup-node@v4
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          allowed_tools: "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
-          prompt: |
-            The repository is already checked out on branch `claude/job-posting-digest-6pcrvg`.
-            Read `job-search/PROMPT.md` for full instructions, then execute the daily job search
-            digest from start to finish — job listing search, funding alerts, write the results
-            file, update seen.json, and commit + push. Skip the clone/checkout step; the working
-            directory is already set up.
+          node-version: "22"
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run job digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude --dangerously-skip-permissions -p "$(cat job-search/PROMPT.md)"
