@@ -1,63 +1,38 @@
 # Daily Job Digest — Agent Instructions
 
-You are running the daily job digest for Josh Oppenheimer. This is a fresh session with no memory of prior runs. All state and instructions live in the `joshopp07/joshoppenheimer.com` repo on branch `claude/job-posting-digest-6pcrvg`.
+Fresh session, no memory of prior runs. All state lives in `joshopp07/joshoppenheimer.com` on branch `claude/job-posting-digest-6pcrvg`.
 
-**Start by cloning/checking out that branch and reading `job-search/config.json` and `job-search/seen.json` in full before doing anything else.**
-
----
-
-## Part 1: Job Listing Search
-
-Search for digital health / health AI job postings from the last `posting_age_max_days` days (see config). Cover all boards in `config.json -> sourcing.job_boards`. Cast a wide net on titles: VP/Head/Director/Chief-level roles in Product, Clinical/Medical Affairs, or BD/Partnerships/Sales — as long as an MD or clinical background is a stated requirement or clear differentiator, AND the role does NOT require direct ongoing patient care or direct supervision of clinical staff.
-
-Apply all filters from config in order:
-
-1. **Hard exclusions** (`company_preferences.exclude_employer_types`): no payers, no hospital systems as employer, no pharma/biotech drug development, no pure EHR vendors.
-2. **Watchlist overrides**: always exclude `watchlist.exclude_companies`; always include `watchlist.include_companies` regardless of other filters.
-3. **Product mission** (`product_mission_preference`): score down companies primarily focused on RCM, billing, coding, prior auth. Score up companies whose core product improves clinical outcomes, diagnosis, or clinical decision-making.
-4. **Clinical domain** (`clinical_domain_preference`): favor general/EM-relevant platforms; score down narrow surgical or mental health companies; score low consumer wellness/fitness wearables.
-5. **Travel** (`logistics.travel_tolerance_pct` + `logistics.travel_exception`): if a role lists >25% travel AND a salary explicitly at $400k+, include it; if travel >25% and salary is not listed, include but flag prominently; if travel >25% and salary is listed below $400k, exclude.
-6. **Salary floor** (`logistics.min_base_salary_usd` = $200k): exclude only if a listed range falls entirely below the floor. No salary listed → include and flag as "not listed."
-7. **Engagement type**: both full-time and fractional/part-time exec roles are in scope. For fractional roles, apply the salary floor as a pro-rated guide, not a strict cutoff — flag the compensation structure (retainer, day rate, equity).
-8. **Deduplication**: skip anything already in `seen.json` (match on company + normalized title, or URL).
-
-Score each new qualifying listing 1–10 for fit against Josh's profile (see `candidate` in config). Write 1–2 sentences of concrete reasoning. Be skeptical — prefer fewer high-confidence matches over a padded list. Consult `watchlist.scoring_notes` for guidance on previously-seen companies.
+**First:** check out that branch, read `job-search/config.json` and `job-search/seen.json` in full.
 
 ---
 
-## Part 2: Funding Alerts (Outreach Opportunities)
+## Part 1: Job Listings
 
-Search for digital health / health AI companies that announced a funding round in the last `funding_alert_age_max_days` days (see config) with a raise of $15M or more. Use `sourcing.funding_alert_sources` from config.
+Search `sourcing.job_boards` for digital health / health AI postings within `posting_age_max_days`. Target VP/Head/Director/Chief roles in Product, Clinical/Medical Affairs, or BD/Partnerships/Sales where an MD/clinical background is a stated requirement or clear differentiator, and the role involves no direct ongoing patient care or clinical staff supervision.
 
-For each newly-funded company:
+Filter using config, in order: `exclude_employer_types` → `watchlist` include/exclude overrides → `product_mission_preference` → `clinical_domain_preference` → `travel_tolerance_pct`/`travel_exception` → `min_base_salary_usd` (missing salary ≠ exclude) → engagement type (fractional roles: pro-rate the salary floor, flag comp structure) → dedupe against `seen.json` (company+title or URL).
 
-1. Check whether the company has an MD or DO on its founding team or listed leadership (check their website, LinkedIn, Crunchbase).
-2. Apply the logic from `funding_alerts.logic` in config:
-   - **Seed or Series A, no MD on team** → HIGH priority outreach. The raise may enable a first clinical hire.
-   - **Series B or later, MD already on team** → MEDIUM priority. They are likely expanding; new clinical leadership roles may be imminent.
-   - **Any stage, no MD, $15M+** → HIGH priority regardless of round.
-3. Identify the best outreach contact: founding CEO (if reachable), partner at the lead VC firm, or a known team member. Find their name and LinkedIn URL if possible.
-4. Deduplicate against `seen.json` (do not resurface the same funding announcement twice).
+Score each new match 1–10 vs the `candidate` profile with 1–2 sentences of concrete reasoning. Be skeptical — fewer high-confidence matches beat a padded list. Check `watchlist.scoring_notes` for guidance on previously-seen companies.
 
 ---
 
-## Part 3: Output and State Updates
+## Part 2: Funding Alerts
 
-**If both sections are empty** (no new job listings AND no new funding alerts): end your final reply with a single short low-key line ("No new listings or funding alerts today.") — not noteworthy, no push notification.
+Search `funding_alert_sources` for digital health / health AI raises ≥ `funding_alerts.min_raise_usd` within `funding_alert_age_max_days`. For each: check for an MD/DO on the founding team or leadership, apply `funding_alerts.logic` for priority, identify an outreach contact (founding CEO, lead VC partner, or known team member — name + LinkedIn if findable), and dedupe against `seen.json`.
 
-**If there is anything to report:**
+---
 
-1. Write a results file to `job-search/results/YYYY-MM-DD.md` with:
-   - **Job Listings** section: each new match with title, company, score + reasoning, stage/funding, salary (or "not listed"), location/remote policy, travel note if applicable, direct apply/posting link.
-   - **Outreach Opportunities** section: each newly-funded company with company name, amount raised, round, lead investor(s), product description, whether they have an MD on team, suggested outreach contact (name + LinkedIn), and 1-sentence rationale for why Josh's background is relevant.
+## Part 3: Output and State
 
-2. Append all new listings and funding alerts to `seen.json` (record company, title or announcement, url, date_found). Prune entries older than 90 days.
+**Nothing new in either section:** reply with one low-key line (e.g. "No new listings or funding alerts today.") — no results file, no `seen.json` changes.
 
-3. Commit and push these changes to `claude/job-posting-digest-6pcrvg` with a clear commit message.
+**Otherwise:**
 
-4. Make your **final reply** the actual digest content — this is what becomes the push notification. Structure it clearly:
+1. Write `job-search/results/YYYY-MM-DD.md`:
+   - **Job Listings**: title, company, score + reasoning, stage/funding, salary (or "not listed"), location/remote policy, travel note if relevant, direct apply link.
+   - **Outreach Opportunities**: company, amount raised, round, lead investor(s), product description, MD-on-team (yes/no), suggested contact, 1-sentence rationale.
+2. Append new entries to `seen.json` (company, title/announcement, url, date_found); prune entries older than 90 days.
+3. Commit and push to `claude/job-posting-digest-6pcrvg` with a clear message.
+4. Make your **final reply** the digest itself (this becomes the push notification): Job Listings ranked by score, then Outreach Opportunities (HIGH priority first) — each entry scannable in one line or two.
 
-   **Job Listings** (ranked by score): title, company, score, one-line reasoning, salary, apply link.
-   **Outreach Opportunities** (HIGH priority first): company, raise, round, MD on team (yes/no), suggested contact, one-line rationale.
-
-Keep it scannable. Use good judgment throughout — the config is the source of truth, not these instructions alone.
+`config.json` is the source of truth throughout — use judgment, don't apply these rules mechanically.
