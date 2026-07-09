@@ -76,13 +76,13 @@
   },
   "funding_alerts": {
     "enabled": true,
-    "min_raise_usd": 15000000,
+    "min_raise_usd": 10000000,
     "target_sectors": ["health AI", "digital health", "clinical AI", "medtech AI"],
     "exclude_sectors": ["pharma", "biotech drug development", "health insurance", "hospital systems", "pure EHR"],
     "logic": {
       "seed_or_series_a": "Flag if the company has NO physician (MD/DO) on the founding team or listed leadership. Josh would reach out to a board member, investor, or team member to explore whether they are considering a CMO hire enabled by the new capital. Priority: HIGH.",
       "series_b_or_later": "Flag even if they already have an MD on the team — they are likely expanding the team and may be creating new clinical leadership roles. Josh would reach out to explore upcoming hiring plans. Priority: MEDIUM.",
-      "any_stage_no_md": "If a company at any stage raised $15M+ and has no MD on leadership, flag as HIGH priority outreach regardless of round."
+      "any_stage_no_md": "If a company at any stage raised $10M+ and has no MD on leadership, flag as HIGH priority outreach regardless of round."
     },
     "outreach_target": "Identify the best outreach contact for each flagged company: founding CEO (if accessible), lead investor (partner at lead VC firm), or a known team member. Include their name and LinkedIn URL if findable.",
     "digest_section": "Include as a separate 'Outreach Opportunities' section in the digest, after job listings. Each entry: company name, amount raised, round, lead investor(s), clinical AI product description, whether they have an MD on team, outreach target, and 1-sentence rationale for why Josh's background is relevant."
