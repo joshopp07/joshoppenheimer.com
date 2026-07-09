@@ -91,6 +91,14 @@
       "type": "funding_alert",
       "priority": "LOW",
       "notes": "December 2025 raise, outside 7-day window for automated runs"
+    },
+    {
+      "company": "Pearl Health",
+      "announcement": "$110M raise ($50M equity led by a16z + $60M credit facility from Trinity Capital) — AI platform for value-based care/Medicare provider enablement, expanding into Medicare Advantage and risk-based offerings",
+      "url": "https://www.prnewswire.com/news-releases/pearl-health-raises-110-million-to-expand-its-ai-platform-helping-providers-deliver-better-outcomes-at-lower-cost-for-medicare-patients-302820795.html",
+      "date_found": "2026-07-09",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
