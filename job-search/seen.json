@@ -99,6 +99,14 @@
       "date_found": "2026-07-09",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Handspring Health",
+      "announcement": "Series B $19M (RPS Ventures, Angelini Ventures + returning investors; $37M total raised) — virtual mental health clinic for children/adolescents/families, fully-employed clinician workforce, expanding Complex Care program",
+      "url": "http://www.prnewswire.com/news-releases/handspring-raises-19m-series-b-to-bring-high-quality-mental-health-care-to-children-and-families-nationwide-302817364.html",
+      "date_found": "2026-07-11",
+      "type": "funding_alert",
+      "priority": "HIGH"
     }
   ]
 }
