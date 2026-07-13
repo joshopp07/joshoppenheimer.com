@@ -107,6 +107,14 @@
       "date_found": "2026-07-11",
       "type": "funding_alert",
       "priority": "HIGH"
+    },
+    {
+      "company": "Telepatia",
+      "announcement": "Series A $33M (a16z; ~$42M total raised) — AI clinical copilot ('AI Doctor') for hospitals, real-time consult transcription/EHR review/clinical guideline suggestions, deployed across 25+ health systems in Latin America, MD co-founder (Tomás Giraldo Hinestroza)",
+      "url": "https://a16z.com/announcement/investing-in-telepatia/",
+      "date_found": "2026-07-13",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
