@@ -115,6 +115,14 @@
       "date_found": "2026-07-13",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Included Health",
+      "announcement": "Medical Director, Clinical Affairs — remote, MD/DO required, client-facing clinical liaison/BD role",
+      "url": "https://jobs.lever.co/includedhealth/1d4ee2b9-d3c4-46a4-8e3c-c5906c536214",
+      "date_found": "2026-07-14",
+      "type": "job_listing",
+      "score": 8
     }
   ]
 }
