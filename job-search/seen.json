@@ -2,7 +2,7 @@
   "seen_listings": [
     {
       "company": "Prenosis",
-      "announcement": "Series A $20M + $20M BARDA contract ($40M total) — AI sepsis diagnostics, Sepsis ImmunoScore (FDA de novo), precision medicine for critical care",
+      "announcement": "Series A $20M + $20M BARDA contract ($40M total) \u2014 AI sepsis diagnostics, Sepsis ImmunoScore (FDA de novo), precision medicine for critical care",
       "url": "https://prenosis.com/news/prenosis-announces-barda-contract-series-a-financing-round/",
       "date_found": "2026-07-01",
       "type": "funding_alert",
@@ -10,7 +10,7 @@
     },
     {
       "company": "Cadence",
-      "announcement": "Series C $100M (Spark Capital) — AI-powered chronic disease management at home (hypertension, diabetes, heart failure, COPD), 100K+ active patients",
+      "announcement": "Series C $100M (Spark Capital) \u2014 AI-powered chronic disease management at home (hypertension, diabetes, heart failure, COPD), 100K+ active patients",
       "url": "https://www.cadence.care/post/cadence-raises-100m-series-c-led-by-spark-capital-to-automate-chronic-care/",
       "date_found": "2026-07-01",
       "type": "funding_alert",
@@ -18,7 +18,7 @@
     },
     {
       "company": "OpenEvidence",
-      "announcement": "Series D $250M (Thrive Capital + DST Global, $12B valuation) — AI clinical decision support and medical reference for physicians, 40%+ of US physicians, 18M+ monthly consultations",
+      "announcement": "Series D $250M (Thrive Capital + DST Global, $12B valuation) \u2014 AI clinical decision support and medical reference for physicians, 40%+ of US physicians, 18M+ monthly consultations",
       "url": "https://www.businesswire.com/news/home/20260121029132/en/OpenEvidence-Raises-$250-Million-to-Build-Medical-Superintelligence-for-Doctors",
       "date_found": "2026-07-01",
       "type": "funding_alert",
@@ -26,7 +26,7 @@
     },
     {
       "company": "Assort Health",
-      "announcement": "Series C $120M (Menlo Ventures, $1.2B valuation) — AI voice agents for patient access, scheduling, intake, follow-up; 190M+ patient interactions",
+      "announcement": "Series C $120M (Menlo Ventures, $1.2B valuation) \u2014 AI voice agents for patient access, scheduling, intake, follow-up; 190M+ patient interactions",
       "url": "https://www.assorthealth.com/blog/assort-health-raises-120-million-series-c-to-scale-largest-deployment-of-ai-agents-for-the-patient-journey",
       "date_found": "2026-07-01",
       "type": "funding_alert",
@@ -34,7 +34,7 @@
     },
     {
       "company": "xCures",
-      "announcement": "Series B $46M (Innovius Capital) — AI to structure fragmented medical records and unstructured EHR data, 300M+ records processed",
+      "announcement": "Series B $46M (Innovius Capital) \u2014 AI to structure fragmented medical records and unstructured EHR data, 300M+ records processed",
       "url": "https://xcures.com/series-b/",
       "date_found": "2026-07-01",
       "type": "funding_alert",
@@ -42,16 +42,16 @@
     },
     {
       "company": "Vista AI",
-      "announcement": "Series B $29.5M (Khosla Ventures + health system investors) — AI-guided automated MRI scanning and acquisition, radiology workflow automation",
+      "announcement": "Series B $29.5M (Khosla Ventures + health system investors) \u2014 AI-guided automated MRI scanning and acquisition, radiology workflow automation",
       "url": "https://vista.ai/vista-ai-secures-29-5m-in-series-b-funding-as-health-systems-back-automated-mri-scanning/",
       "date_found": "2026-07-01",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded from digest — radiology-specific domain, not a fit for EM/general medicine background"
+      "notes": "Excluded from digest \u2014 radiology-specific domain, not a fit for EM/general medicine background"
     },
     {
       "company": "Doctronic",
-      "announcement": "Series B $40M (Lightspeed + Abstract) — AI autonomous medical consultations and prescription renewal; first AI to legally renew prescriptions in US",
+      "announcement": "Series B $40M (Lightspeed + Abstract) \u2014 AI autonomous medical consultations and prescription renewal; first AI to legally renew prescriptions in US",
       "url": "https://www.businesswire.com/news/home/20260324814372/en/Doctronic-Raises-$40M-Series-B-Following-Breakthrough-as-First-AI-to-Legally-Renew-Prescriptions-in-the-U.S.",
       "date_found": "2026-07-01",
       "type": "funding_alert",
@@ -59,7 +59,7 @@
     },
     {
       "company": "Qualified Health",
-      "announcement": "Series B $125M — enterprise AI platform for health systems (AI governance, evaluation, deployment); CMO is Dr. Kedar Mate (former IHI CEO)",
+      "announcement": "Series B $125M \u2014 enterprise AI platform for health systems (AI governance, evaluation, deployment); CMO is Dr. Kedar Mate (former IHI CEO)",
       "url": "https://www.qualifiedhealthai.com/",
       "date_found": "2026-07-01",
       "type": "funding_alert",
@@ -67,25 +67,25 @@
     },
     {
       "company": "Nitra",
-      "announcement": "Series A+B $187M combined (NEA, Pantera) — AI-native operating system for healthcare practices (finance, procurement, patient management); Dr. Richard Park on board",
+      "announcement": "Series A+B $187M combined (NEA, Pantera) \u2014 AI-native operating system for healthcare practices (finance, procurement, patient management); Dr. Richard Park on board",
       "url": "https://hitconsultant.net/2026/03/13/nitra-187m-funding-ai-native-healthcare-operating-system-back-office/",
       "date_found": "2026-07-01",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Low fit — practice management back-office operations, not clinical care; no outpatient clinic expertise to offer"
+      "notes": "Low fit \u2014 practice management back-office operations, not clinical care; no outpatient clinic expertise to offer"
     },
     {
       "company": "Amperos Health",
-      "announcement": "Series A $16M — AI-native denial management solution (RCM)",
+      "announcement": "Series A $16M \u2014 AI-native denial management solution (RCM)",
       "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/amperos-health-secures-16m-series-funding-announces-industrys-new-first-ai",
       "date_found": "2026-07-01",
       "type": "funding_alert",
       "priority": "EXCLUDED",
-      "notes": "Excluded — denial management / RCM, not clinical care improvement"
+      "notes": "Excluded \u2014 denial management / RCM, not clinical care improvement"
     },
     {
       "company": "Artera",
-      "announcement": "Growth round $65M (Lead Edge Capital) — AI agents for patient communication, $100M CARR",
+      "announcement": "Growth round $65M (Lead Edge Capital) \u2014 AI agents for patient communication, $100M CARR",
       "url": "https://artera.io/news/artera-secures-65m-growth-investment/",
       "date_found": "2026-07-01",
       "type": "funding_alert",
@@ -94,7 +94,7 @@
     },
     {
       "company": "Pearl Health",
-      "announcement": "$110M raise ($50M equity led by a16z + $60M credit facility from Trinity Capital) — AI platform for value-based care/Medicare provider enablement, expanding into Medicare Advantage and risk-based offerings",
+      "announcement": "$110M raise ($50M equity led by a16z + $60M credit facility from Trinity Capital) \u2014 AI platform for value-based care/Medicare provider enablement, expanding into Medicare Advantage and risk-based offerings",
       "url": "https://www.prnewswire.com/news-releases/pearl-health-raises-110-million-to-expand-its-ai-platform-helping-providers-deliver-better-outcomes-at-lower-cost-for-medicare-patients-302820795.html",
       "date_found": "2026-07-09",
       "type": "funding_alert",
@@ -102,7 +102,7 @@
     },
     {
       "company": "Handspring Health",
-      "announcement": "Series B $19M (RPS Ventures, Angelini Ventures + returning investors; $37M total raised) — virtual mental health clinic for children/adolescents/families, fully-employed clinician workforce, expanding Complex Care program",
+      "announcement": "Series B $19M (RPS Ventures, Angelini Ventures + returning investors; $37M total raised) \u2014 virtual mental health clinic for children/adolescents/families, fully-employed clinician workforce, expanding Complex Care program",
       "url": "http://www.prnewswire.com/news-releases/handspring-raises-19m-series-b-to-bring-high-quality-mental-health-care-to-children-and-families-nationwide-302817364.html",
       "date_found": "2026-07-11",
       "type": "funding_alert",
@@ -110,7 +110,7 @@
     },
     {
       "company": "Telepatia",
-      "announcement": "Series A $33M (a16z; ~$42M total raised) — AI clinical copilot ('AI Doctor') for hospitals, real-time consult transcription/EHR review/clinical guideline suggestions, deployed across 25+ health systems in Latin America, MD co-founder (Tomás Giraldo Hinestroza)",
+      "announcement": "Series A $33M (a16z; ~$42M total raised) \u2014 AI clinical copilot ('AI Doctor') for hospitals, real-time consult transcription/EHR review/clinical guideline suggestions, deployed across 25+ health systems in Latin America, MD co-founder (Tom\u00e1s Giraldo Hinestroza)",
       "url": "https://a16z.com/announcement/investing-in-telepatia/",
       "date_found": "2026-07-13",
       "type": "funding_alert",
@@ -118,11 +118,19 @@
     },
     {
       "company": "Included Health",
-      "announcement": "Medical Director, Clinical Affairs — remote, MD/DO required, client-facing clinical liaison/BD role",
+      "announcement": "Medical Director, Clinical Affairs \u2014 remote, MD/DO required, client-facing clinical liaison/BD role",
       "url": "https://jobs.lever.co/includedhealth/1d4ee2b9-d3c4-46a4-8e3c-c5906c536214",
       "date_found": "2026-07-14",
       "type": "job_listing",
       "score": 8
+    },
+    {
+      "company": "Corner Health",
+      "announcement": "$32.5M ($25M Series A + $7.5M seed/pre-seed, Oak HC/FT) — AI-native practice OS (\"Cora\") enabling independent Nurse Practitioners to run their own primary care practices; no MD on founding team",
+      "url": "https://www.businesswire.com/news/home/20260709012876/en/Corner-Health-Announces-$32.5-Million-in-Seed-and-Series-A-Financing-to-Help-Independent-Clinicians-Rebuild-Primary-Care",
+      "date_found": "2026-07-15",
+      "type": "funding_alert",
+      "priority": "HIGH"
     }
   ]
 }
