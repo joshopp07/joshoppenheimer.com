@@ -131,6 +131,46 @@
       "date_found": "2026-07-15",
       "type": "funding_alert",
       "priority": "HIGH"
+    },
+    {
+      "company": "Bunkerhill Health",
+      "announcement": "Series B $25M (Khosla Ventures; $55M total) — \"Carebricks\" agentic AI platform for health systems to build/deploy/govern clinical AI agents; FDA-cleared agents for coronary calcium risk, nephrology triage, osteoporosis risk, cardiology fax-triage; deployed at 15 health systems including Cleveland Clinic, Mayo, Intermountain; no MD/CCO on executive leadership",
+      "url": "https://www.linkedin.com/in/nishith-khandwala-16b27227/",
+      "date_found": "2026-07-17",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "Neko Health",
+      "announcement": "Series C $700M (Lightspeed + O.G. Venture Partners, ~$7B valuation) — full-body preventive-health scanning clinics (body scans + bloodwork + AI risk detection), expanding to US; CMO Dr. Sunita Mishra and Global Medical Director Dr. Nikita Kanani already in place",
+      "url": "https://www.linkedin.com/in/nilsonne",
+      "date_found": "2026-07-17",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "TytoCare",
+      "announcement": "Growth round $25M+ (Insight Partners) — AI-first clinical enablement platform, handheld remote physical-exam device + FDA-cleared SaMD algorithms; new non-physician CEO Adam Pellegrini signals leadership transition; CMO Ohad Pollak already in place",
+      "url": "https://www.linkedin.com/in/adampellegrini/",
+      "date_found": "2026-07-17",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Xenter",
+      "announcement": "Series B $58.25M — \"TechMed\" wireless medical devices/data platform, TAVR physiology guidewire (\"Guru\"); President of Medical Technologies BU is interventional cardiologist Dr. Mark Turco; round closed Jun 30, announced Jul 16",
+      "url": "https://www.linkedin.com/in/richard-linder-bbb87a1a8/",
+      "date_found": "2026-07-17",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Jukebox Health",
+      "announcement": "Fractional Chief Medical Officer — home-modification/aging-in-place/SDOH company targeting Medicaid/MCO value-based contracts; first clinical executive hire; comp not disclosed",
+      "url": "https://www.fractionaljobs.io/jobs/chief-medical-officer-at-jukebox-health",
+      "date_found": "2026-07-17",
+      "type": "job_listing",
+      "score": 5
     }
   ]
 }
