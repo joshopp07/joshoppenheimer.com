@@ -171,6 +171,14 @@
       "date_found": "2026-07-17",
       "type": "job_listing",
       "score": 5
+    },
+    {
+      "company": "Hemispheric (Descartes NeuroAI)",
+      "announcement": "$52M cumulative (pre-seed + seed + Series A), emerged from stealth — NeuroAI foundation model (EEG headset + tablet) for psychiatric/neurological diagnosis, initial focus PTSD with FDA submission planned; no MD/DO on founding or executive leadership",
+      "url": "https://hitconsultant.net/2026/07/15/hemispheric-neuroai-launches-descartes-brain-model/",
+      "date_found": "2026-07-18",
+      "type": "funding_alert",
+      "priority": "HIGH"
     }
   ]
 }
