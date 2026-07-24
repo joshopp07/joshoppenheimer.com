@@ -179,6 +179,14 @@
       "date_found": "2026-07-18",
       "type": "funding_alert",
       "priority": "HIGH"
+    },
+    {
+      "company": "Hilo (by Aktiia)",
+      "announcement": "Series B extension $19M (Dell Family Office; ~$119M total) — FDA-cleared cuffless OTC blood pressure monitoring wristband, nationwide US launch Jul 21 2026; CMO Dr. Jay Shah (cardiologist) already in place",
+      "url": "https://www.linkedin.com/in/stefpetz/",
+      "date_found": "2026-07-24",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
