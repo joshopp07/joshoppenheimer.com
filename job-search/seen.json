@@ -195,6 +195,49 @@
       "date_found": "2026-07-27",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Karoo Health",
+      "announcement": "Series A $16.2M (oversubscribed, co-led 7wire Ventures + Allumia Ventures) — AI-native platform integrating EHR/claims/pharmacy/care-team data for early cardiac risk detection and value-based cardiology care; CMO Dr. Aneesh Pakala (cardiologist) already in place",
+      "url": "https://www.prnewswire.com/news-releases/karoo-health-announces-oversubscribed-16-2-million-series-a-co-led-by-7wire-ventures-and-allumia-ventures-302830121.html",
+      "date_found": "2026-07-28",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Prosper Medical",
+      "announcement": "Seed $16M (led by FUSE) — AI-powered concierge primary care, dedicated physicians + AI layer for records/labs/referrals; Co-founder/CMO Dr. James Wantuck (ex-PlushCare) already on founding team",
+      "url": "https://www.businesswire.com/news/home/20260723537845/en/Prosper-Medical-Raises-$16M-to-Bring-AI-powered-Concierge-Care-to-All",
+      "date_found": "2026-07-28",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Assured (Assured Health)",
+      "announcement": "Series A $19M (Insight Partners; $25M total) — agentic AI for provider credentialing and payer enrollment; no MD on founding team",
+      "url": "https://www.fiercehealthcare.com/finance/startup-assured-banks-19m-series-ai-native-credientialing-provider-enrollment",
+      "date_found": "2026-07-28",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — credentialing/payer-enrollment back-office automation, not clinical care, same treatment as Nitra"
+    },
+    {
+      "company": "Candid Health",
+      "announcement": "Series D $120M (Sixth Street Growth) — AI-powered autonomous revenue cycle management/medical billing automation; no MD on founding team",
+      "url": "https://www.businesswire.com/news/home/20260721951537/en/Candid-Health-Raises-%24120M-Led-by-Sixth-Street-Growth-to-Fuel-Autonomous-Revenue-Cycle-Management-in-Healthcare",
+      "date_found": "2026-07-28",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — RCM/billing automation, not clinical care improvement, same treatment as Amperos Health"
+    },
+    {
+      "company": "Flourish Health",
+      "announcement": "Series A $26M (B Capital, F-Prime Capital, Cherryrock Capital; $46M total) — in-home psychiatrist-led high-acuity mental health care for children/young adults in crisis; Co-founder Dr. Natalia Birgisson (MD) already in clinical leadership",
+      "url": "https://hitconsultant.net/2026/07/27/flourish-health-high-acuity-youth-mental-health/",
+      "date_found": "2026-07-28",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — mental-health-focused domain de-prioritized per config, and MD already on founding team"
     }
   ]
 }
