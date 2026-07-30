@@ -238,6 +238,57 @@
       "type": "funding_alert",
       "priority": "LOW",
       "notes": "Excluded — mental-health-focused domain de-prioritized per config, and MD already on founding team"
+    },
+    {
+      "company": "Regard",
+      "announcement": "Medical Director, Clinical Solutions — reports to CMO, leads clinical demos/client readiness/GTM for AI diagnosis-support + note-drafting product; Series B (~$84M total)",
+      "url": "https://jobs.ashbyhq.com/regard/14002803-a322-406c-8f2a-ded757720972",
+      "date_found": "2026-07-30",
+      "type": "job_listing",
+      "score": 8
+    },
+    {
+      "company": "Abridge",
+      "announcement": "Clinical Success Director (Remote) — requires 5+ yrs practicing clinician (MD/DO/PA/NP), Epic fluency; customer-success/BD leadership for ambient documentation AI",
+      "url": "https://jobs.ashbyhq.com/abridge/0aebb9cf-5baa-41af-a9c6-f9ecd95969ae",
+      "date_found": "2026-07-30",
+      "type": "job_listing",
+      "score": 7
+    },
+    {
+      "company": "Vivid Dx",
+      "announcement": "Seed $15M (Oxford Science Enterprises + Cedars-Sinai IP Co.) — direct-from-blood sepsis/AMR diagnostics (pathogen ID + antimicrobial susceptibility via Raman spectroscopy + AI), no MD/CMO on team",
+      "url": "https://www.prnewswire.com/news-releases/vivid-dx-raises-15m-to-help-hospitals-confront-one-of-modern-medicines-most-urgent-threats-drug-resistant-infections-302836178.html",
+      "date_found": "2026-07-30",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "Precise Behavioral",
+      "announcement": "$14.2M growth round (A1 Health Ventures) — physician-led behavioral health platform targeting ED boarding; Founder/CEO Dr. Nitin Nanda (MD) already in clinical leadership",
+      "url": "https://bhbusiness.com/2026/07/29/exclusive-precise-behavioral-lands-14-2-million-to-tackle-ed-boarding-eliminate-vendor-soup/",
+      "date_found": "2026-07-30",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — mental/behavioral health domain de-prioritized per config, and MD already founds/leads the company"
+    },
+    {
+      "company": "SoundHealth",
+      "announcement": "Series A $12.25M (Shangbay Capital) — FDA-cleared acoustic-resonance wearable for rhinitis/sleep; MDs Dr. Bryant Lin and Dr. Peter Hwang already in clinical leadership",
+      "url": "https://www.axios.com/pro/health-tech-deals/2026/07/28/medtech-soundhealth-series-a",
+      "date_found": "2026-07-30",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — consumer ENT/sleep wellness device, weak fit for EM background, and MDs already on team"
+    },
+    {
+      "company": "Qureight",
+      "announcement": "Series B $20M (Molten Ventures) — AI imaging platform for lung/heart clinical-trial endpoints, Cambridge UK",
+      "url": "https://tech.eu/2026/07/29/qureight-secures-20m-series-b-to-expand-ai-powered-imaging-platform-for-clinical-trials/",
+      "date_found": "2026-07-30",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — imaging + clinical-trials focus, same treatment as Vista AI; needs a radiologist/pulmonologist reader, not an EM physician"
     }
   ]
 }
