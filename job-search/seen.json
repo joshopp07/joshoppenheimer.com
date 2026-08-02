@@ -289,6 +289,32 @@
       "type": "funding_alert",
       "priority": "LOW",
       "notes": "Excluded — imaging + clinical-trials focus, same treatment as Vista AI; needs a radiologist/pulmonologist reader, not an EM physician"
+    },
+    {
+      "company": "Function Health",
+      "announcement": "Growth financing $450M (General Catalyst Customer Value Fund; ~$800M+ total, ~$2.5B valuation) — consumer membership platform for lab biomarker panels + AI longitudinal health analytics; recently acquired Getlabs and SuppCo; co-founder Mark Hyman, MD is CMO",
+      "url": "https://www.prnewswire.com/news-releases/function-secures-450-million-growth-financing-from-general-catalysts-customer-value-fund-cvf-302838766.html",
+      "date_found": "2026-08-02",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Ahead Health",
+      "announcement": "Seed extension €8.7M (~$10M, 3VC + RTP Global; ~$16M total) — Zurich preventive health platform bundling full-body MRI + biomarker panel + AI analysis; expanding to Germany/Netherlands; heavily radiology/imaging-centered",
+      "url": "https://www.eu-startups.com/2026/07/swiss-preventive-healthtech-startup-ahead-health-secures-e8-7-million-and-launches-in-germany-and-the-netherlands/",
+      "date_found": "2026-08-02",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — heavily MRI/radiology-centered preventive screening, same treatment as Neko Health/Vista AI"
+    },
+    {
+      "company": "Throne Science",
+      "announcement": "Series A $10M (Will Ventures; Emerson Collective, Felix Capital participating) — toilet-mounted AI sensor tracking gut health/hydration/urinary function; no MD on founding team found",
+      "url": "https://www.businesswire.com/news/home/20260728282605/en/Throne-Science-Maker-of-Smart-Toilet-Sensor-Announces-$10-Million-Series-A-Fundraise",
+      "date_found": "2026-08-02",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — consumer wellness device, not clinical care, same treatment as Whoop"
     }
   ]
 }
