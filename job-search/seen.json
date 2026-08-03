@@ -315,6 +315,22 @@
       "type": "funding_alert",
       "priority": "LOW",
       "notes": "Excluded — consumer wellness device, not clinical care, same treatment as Whoop"
+    },
+    {
+      "company": "Cadence",
+      "announcement": "Medical Director — remote, MD/DO required, field-first clinical liaison to partner providers for chronic-disease RPM program (Series C)",
+      "url": "https://www.cadence.care/jobs/medical-director",
+      "date_found": "2026-08-03",
+      "type": "job_listing",
+      "score": 8
+    },
+    {
+      "company": "Doctronic",
+      "announcement": "Medical Director — MD/DO required, EM board certification strongly preferred, clinical pathway/product-design role partnering with CMO Dr. Byron Crowe (Series B)",
+      "url": "https://jobs.ashbyhq.com/doctronic/97cbd557-e802-48aa-b1ff-0e602b8354e8",
+      "date_found": "2026-08-03",
+      "type": "job_listing",
+      "score": 7
     }
   ]
 }
