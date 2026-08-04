@@ -331,6 +331,14 @@
       "date_found": "2026-08-03",
       "type": "job_listing",
       "score": 7
+    },
+    {
+      "company": "Inocras",
+      "announcement": "Series B-3 $31M oversubscribed (~$100M total) — AI whole-genome sequencing/bioinformatics for precision oncology (CancerVision, MRDVision), U.S. commercial expansion; MD co-founder Dr. Jeong Seok Lee already Chief Innovation Officer",
+      "url": "https://www.businesswire.com/news/home/20260803380549/en/Inocras-Closes-$31-Million-in-Oversubscribed-Series-B-3-Financing-to-Accelerate-U.S.-Commercial-Expansion",
+      "date_found": "2026-08-04",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
