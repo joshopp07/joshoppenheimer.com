@@ -339,6 +339,31 @@
       "date_found": "2026-08-04",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Wellinks",
+      "announcement": "Series B (first close) $10M (UMass Memorial Health + inside investors) — FDA-cleared cardiopulmonary RPM platform (Spire + Health Tags) for COPD/CHF, predictive deterioration alerts; CMO Dr. Abi Sundaramoorthy already in place, CEO Stacie Bratcher is a PT not MD",
+      "url": "https://www.prnewswire.com/news-releases/wellinks-closed-10-million-series-b-funding-from-umass-memorial-health-and-inside-investors-302842712.html",
+      "date_found": "2026-08-06",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "CoreMap",
+      "announcement": "Series C $37M oversubscribed (Medtronic-led) — electrophysiology mapping platform for AFib ablation guidance; co-founder/CSO Dr. Peter Spector (practicing electrophysiologist) already in clinical leadership",
+      "url": "https://www.massdevice.com/medtronic-leads-37m-round-coremap/",
+      "date_found": "2026-08-06",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "QuantHealth",
+      "announcement": "Series B $45M (Qumra Capital led; Sanofi Ventures participating) — AI clinical trial simulation platform for pharma sponsors",
+      "url": "https://www.calcalistech.com/ctechnews/article/skzri8y8zl",
+      "date_found": "2026-08-06",
+      "type": "funding_alert",
+      "priority": "EXCLUDED",
+      "notes": "Excluded — clinical trial simulation software serving pharma sponsors, falls under pharma/biotech drug development exclusion"
     }
   ]
 }
