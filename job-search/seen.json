@@ -364,6 +364,14 @@
       "type": "funding_alert",
       "priority": "EXCLUDED",
       "notes": "Excluded — clinical trial simulation software serving pharma sponsors, falls under pharma/biotech drug development exclusion"
+    },
+    {
+      "company": "HealthSnap",
+      "announcement": "$25M senior secured growth financing facility (Eastward Capital Partners) — AI-powered virtual care management platform (RPM/CCM/APCM) used by 200+ health systems; venture debt not equity; no MD on founding/leadership team",
+      "url": "https://www.prnewswire.com/news-releases/healthsnap-secures-25-million-growth-financing-to-accelerate-ai-powered-virtual-care-management-leadership-302845017.html",
+      "date_found": "2026-08-07",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
