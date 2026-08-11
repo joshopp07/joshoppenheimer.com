@@ -372,6 +372,22 @@
       "date_found": "2026-08-07",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Hippocratic AI",
+      "announcement": "VP of Clinical Affairs — MD/DO + board certification required, client-facing role advising health-system C-suite on adoption of clinical AI agents",
+      "url": "https://www.linkedin.com/jobs/view/vice-president-of-clinical-ai-at-hippocratic-ai-3845880434",
+      "date_found": "2026-08-11",
+      "type": "job_listing",
+      "score": 7
+    },
+    {
+      "company": "Flagler Health",
+      "announcement": "Series B $50M (Axios Pro exclusive, lead investor undisclosed) — AI-native MSK care operating system (triage, virtual PT, chronic care management, RTM) plus practice-management infrastructure; no MD on founding team",
+      "url": "https://www.axios.com/pro/health-tech-deals/2026/08/10/flagler-health-50m-msk",
+      "date_found": "2026-08-11",
+      "type": "funding_alert",
+      "priority": "HIGH"
     }
   ]
 }
