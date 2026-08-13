@@ -388,6 +388,22 @@
       "date_found": "2026-08-11",
       "type": "funding_alert",
       "priority": "HIGH"
+    },
+    {
+      "company": "Wheel",
+      "announcement": "Chief Medical Officer (Fractional) — remote, MD/DO + 10 yrs practice + 7 yrs virtual-care/health-tech leadership required; \"Clinical Closer\" for enterprise sales plus oversight of Clinical Quality Improvement programs, at B2B virtual-care infrastructure platform",
+      "url": "https://jobs.ashbyhq.com/wheel/c2bc8271-1962-4a66-9fe9-67dafd9727fc",
+      "date_found": "2026-08-13",
+      "type": "job_listing",
+      "score": 7
+    },
+    {
+      "company": "Hippocratic AI",
+      "announcement": "Associate Chief Medical Officer, Partnerships — clinically trained physician required, reports to CMO, in-office 5 days/week Palo Alto, BD/partnerships role covering Midwest/East health-system partners",
+      "url": "https://jobs.ashbyhq.com/Hippocratic%20AI/4ec195a9-35c1-4a45-89a0-0fbb1f2064a8",
+      "date_found": "2026-08-13",
+      "type": "job_listing",
+      "score": 6
     }
   ]
 }
