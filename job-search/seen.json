@@ -404,6 +404,38 @@
       "date_found": "2026-08-13",
       "type": "job_listing",
       "score": 6
+    },
+    {
+      "company": "Aligned Marketplace",
+      "announcement": "Series A $20M (Venrock, partner Bob Kocher MD; $31M total) — marketplace connecting self-funded employers/TPAs to network of 3,000+ independent advanced/direct primary care practices; value-based contracting layer, not a proprietary AI product; no MD on founding team",
+      "url": "https://medcitynews.com/2026/08/aligned-marketplace-secures-20m-for-advanced-primary-care-marketplace/",
+      "date_found": "2026-08-15",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "Hyro",
+      "announcement": "VP Clinical Product Strategy (NYC) — LinkedIn listing appears stale; role already filled by Dr. Sindhu Pandit per June 2026 PRNewswire release",
+      "url": "https://www.linkedin.com/jobs/view/vp-clinical-product-strategy-nyc-at-hyro-4350407454",
+      "date_found": "2026-08-15",
+      "type": "job_listing",
+      "notes": "Excluded — appears to be a filled/stale posting; otherwise would be a strong fit (MD/CMIO differentiator, no patient care)"
+    },
+    {
+      "company": "Cohere Health",
+      "announcement": "Medical Director, Clinical Strategy",
+      "url": "https://boards.greenhouse.io/coherehealth/jobs/5604713003",
+      "date_found": "2026-08-15",
+      "type": "job_listing",
+      "notes": "Excluded — core product is prior-authorization/utilization-management automation, de-prioritized per product_mission_preference"
+    },
+    {
+      "company": "Included Health",
+      "announcement": "Care Navigation, Medical Director",
+      "url": "https://builtin.com/job/care-navigation-medical-director/3187124",
+      "date_found": "2026-08-15",
+      "type": "job_listing",
+      "notes": "Excluded — role includes a ~20 hrs/week direct clinical patient-care caseload, violates the no-direct-patient-care requirement"
     }
   ]
 }
