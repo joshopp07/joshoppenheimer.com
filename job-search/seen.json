@@ -436,6 +436,22 @@
       "date_found": "2026-08-15",
       "type": "job_listing",
       "notes": "Excluded — role includes a ~20 hrs/week direct clinical patient-care caseload, violates the no-direct-patient-care requirement"
+    },
+    {
+      "company": "Agilon Health",
+      "announcement": "VP, Clinical Strategy (MD or DO) — remote, $220,400-$275,400 listed",
+      "url": "https://agilonhealth.wd1.myworkdayjobs.com/en-US/External/job/Remote-VP--Clinical-Strategy--MD-or-DO-_R003227",
+      "date_found": "2026-08-18",
+      "type": "job_listing",
+      "notes": "Excluded — posting freshness within 7-day window unverifiable (possible evergreen requisition); large publicly-traded (NYSE: AGL) value-based-care/PCP-enablement incumbent, not an AI-driven clinical product"
+    },
+    {
+      "company": "Bios Life",
+      "announcement": "Seed $25M (Redmile Group, Vsquared Ventures, Kindred Capital) — emerged from stealth, AI cancer-risk/surveillance \"digital twin\" platform (genomic + clinical + daily health-signal data), virtual clinician-staffed care, Tempus data alliance + BioNTech-InstaDeep genomics foundation model rights; co-founder/CMO Dr. Logan Frank (radiologist) already in clinical leadership",
+      "url": "https://techfundingnews.com/bios-life-25m-cancer-screening-digital-twins/",
+      "date_found": "2026-08-18",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
