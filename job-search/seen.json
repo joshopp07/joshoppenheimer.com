@@ -452,6 +452,14 @@
       "date_found": "2026-08-18",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Happy Health",
+      "announcement": "Series A $75M (ARCH Venture Partners + OpenLoop) — FDA-cleared smart ring (Happy Ring) for multi-night at-home sleep testing (OSA, insomnia) plus continuous biometrics, AI-powered physician-guided home care platform, expanding into cardiovascular/metabolic chronic-disease detection; Founder/CEO Dustin Freckleton is an MD",
+      "url": "https://www.fiercehealthcare.com/finance/happy-health-secures-75m-ai-driven-home-based-care-platform",
+      "date_found": "2026-08-19",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
