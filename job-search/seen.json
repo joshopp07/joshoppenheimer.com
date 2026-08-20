@@ -460,6 +460,14 @@
       "date_found": "2026-08-19",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Craif Inc.",
+      "announcement": "Series D $33M (co-led Granite-Integral + Tauns Co.; ~$88M total) — urine-based microRNA test platform for early non-invasive cancer detection (pancreatic cancer focus), expanding to US; no MD/CMO identified on leadership",
+      "url": "https://hitconsultant.net/2026/08/18/craif-raises-series-d-urine-cancer-detection-us-expansion/",
+      "date_found": "2026-08-20",
+      "type": "funding_alert",
+      "priority": "HIGH"
     }
   ]
 }
