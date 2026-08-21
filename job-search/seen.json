@@ -468,6 +468,22 @@
       "date_found": "2026-08-20",
       "type": "funding_alert",
       "priority": "HIGH"
+    },
+    {
+      "company": "Cityblock Health",
+      "announcement": "Series E $116M (General Catalyst) — paired with all-stock acquisition of Homeward Health (rural-first Medicare Advantage model, ~50K members incl. BCBS Michigan partnership); combined entity ~200K members across Medicaid/Medicare Advantage/dual-eligible, $2.2B annualized revenue (+77% YoY); Co-founder/CEO Dr. Toyin Ajayi (MD, Family Medicine) already in clinical leadership",
+      "url": "https://hitconsultant.net/2026/08/20/cityblock-acquires-homeward-health-116m-series-e-government-programs/",
+      "date_found": "2026-08-21",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Hopscotch Primary Care",
+      "announcement": "Series D $53M (8VC + Townhall Ventures, new backers John Doerr + Dr. Richard Merkin) — tech-enabled value-based primary care for rural Medicare patients, expanding beyond Western North Carolina; CMO Dr. Aditi Mallick (ex-CMS) already in clinical leadership, CEO Tim Gronniger is non-MD",
+      "url": "https://www.fiercehealthcare.com/providers/rural-primary-care-company-hopscotch-clinches-53m-expand-beyond-nc",
+      "date_found": "2026-08-21",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
