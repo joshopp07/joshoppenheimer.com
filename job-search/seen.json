@@ -484,6 +484,14 @@
       "date_found": "2026-08-21",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Hippocratic AI",
+      "announcement": "Associate Chief Medical Officer — MD/clinical degree with recent clinical practice required, product-facing role informing design/roadmap of AI healthcare products, in-office 5 days/week Palo Alto, no patient care or staff supervision",
+      "url": "https://jobs.generalcatalyst.com/companies/hippocractic-ai/jobs/44452876-associate-chief-medical-officer",
+      "date_found": "2026-08-22",
+      "type": "job_listing",
+      "score": 7
     }
   ]
 }
