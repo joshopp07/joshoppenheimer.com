@@ -492,6 +492,15 @@
       "date_found": "2026-08-22",
       "type": "job_listing",
       "score": 7
+    },
+    {
+      "company": "MaxQ Medical",
+      "announcement": "Series A $31.5M (Atlantic Blue Ventures, S3 Ventures, Olympus Innovation Ventures; ~$40M+ total) — all-in-one transurethral imaging + tissue-selective therapy platform for prostate care (BPH first, expanding to focal prostate-cancer therapy), Stanford-derived CMUT ultrasound; no MD on founding/executive leadership",
+      "url": "https://www.prnewswire.com/news-releases/maxq-medical-raises-31-5-million-series-a-backed-by-olympus-to-advance-its-prostate-care-platform-302855815.html",
+      "date_found": "2026-08-23",
+      "type": "funding_alert",
+      "priority": "MEDIUM",
+      "notes": "Downgraded from mechanical HIGH (Series A, no MD) — narrow urology/procedural-device domain, weaker fit than diagnosis/triage/monitoring platforms, and AI substance is ambiguous (marketed as 'fully automated' device, not explicitly AI-branded)"
     }
   ]
 }
