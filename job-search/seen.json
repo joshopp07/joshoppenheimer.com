@@ -501,6 +501,22 @@
       "type": "funding_alert",
       "priority": "MEDIUM",
       "notes": "Downgraded from mechanical HIGH (Series A, no MD) — narrow urology/procedural-device domain, weaker fit than diagnosis/triage/monitoring platforms, and AI substance is ambiguous (marketed as 'fully automated' device, not explicitly AI-branded)"
+    },
+    {
+      "company": "K Health",
+      "announcement": "Late-stage round $68.9M (SEC Form D, 19 investors, no publicly named lead; $380M+ total raised since 2016) — AI-powered virtual primary care platform (symptom-checker/diagnostic chat + physician-staffed telehealth); CMO Dr. Neil Brown is a board-certified emergency medicine physician",
+      "url": "https://app.dealroom.co/news/note/k-health-lands-69m-for-ai-primary-care-among-the-largest-health-rounds-in-israel",
+      "date_found": "2026-08-24",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Allia Health Group",
+      "announcement": "Fractional Chief Medical Officer — remote, multi-specialty virtual care network (men's/women's health/longevity), MD/DO + board certification in IM/FM/OB-GYN/Urology required",
+      "url": "https://www.fractionaljobs.io/jobs/chief-medical-officer-at-allia-health-group",
+      "date_found": "2026-08-24",
+      "type": "job_listing",
+      "notes": "Excluded — EM not among named qualifying specialties, possibly already filled (unverified), comp undisclosed; previously excluded 2026-08-23 for clinical-staff-supervision concerns, logging now to stop resurfacing"
     }
   ]
 }
