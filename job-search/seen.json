@@ -517,6 +517,15 @@
       "date_found": "2026-08-24",
       "type": "job_listing",
       "notes": "Excluded — EM not among named qualifying specialties, possibly already filled (unverified), comp undisclosed; previously excluded 2026-08-23 for clinical-staff-supervision concerns, logging now to stop resurfacing"
+    },
+    {
+      "company": "Onos Health",
+      "announcement": "Series A $17M (Costanoa Ventures led; Flare Capital Partners, CVS Health Ventures) — AI clinical intelligence platform for health plans, surfaces behavioral-health care gaps/quality-improvement from claims and clinical notes; Aetna is a customer; no MD on founding team",
+      "url": "https://www.prnewswire.com/news-releases/onos-health-raises-17-million-series-a-to-accelerate-adoption-of-its-behavioral-health-ai-platform-for-health-plans-302860046.html",
+      "date_found": "2026-08-28",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Downgraded from mechanical HIGH (Series A, no MD) — behavioral/mental health domain de-prioritized for EM background, and product is payer-side analytics rather than direct clinical care"
     }
   ]
 }
