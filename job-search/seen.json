@@ -526,6 +526,49 @@
       "type": "funding_alert",
       "priority": "LOW",
       "notes": "Downgraded from mechanical HIGH (Series A, no MD) — behavioral/mental health domain de-prioritized for EM background, and product is payer-side analytics rather than direct clinical care"
+    },
+    {
+      "company": "Transcarent",
+      "announcement": "Medical Director, Population Health and Clinical Oversight — remote, physician leadership role (7+ yrs clinical practice) for population-health strategy/high-cost-claimant oversight/clinical decision support, no direct patient care",
+      "url": "https://startup.jobs/medical-director-population-health-and-clinical-oversight-transcarent-7999971",
+      "date_found": "2026-08-30",
+      "type": "job_listing",
+      "score": 7
+    },
+    {
+      "company": "Metriport",
+      "announcement": "$26M raise (round stage not labeled; ~$28.4M cumulative) — TJ Parker/Matrix led, ARTIS + Y Combinator participating — open-source healthcare data infrastructure aggregating medical records at point of care, building AI/agentic features; no MD on founding team",
+      "url": "https://www.prnewswire.com/news-releases/metriport-raises-26-million-to-give-clinicians-insight-into-any-patient-question-at-the-point-of-care-302862056.html",
+      "date_found": "2026-08-30",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "Arintra",
+      "announcement": "Series B $25M (Define Ventures led) — agentic AI for autonomous medical coding/revenue assurance across the revenue cycle; no MD on founding team",
+      "url": "https://www.fiercehealthcare.com/finance/arintra-banks-25m-series-b-funding-round-ai-driven-revenue-assurance-platform",
+      "date_found": "2026-08-30",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — medical coding/RCM/revenue-assurance product, same treatment as Amperos Health/Candid Health"
+    },
+    {
+      "company": "Faro AI",
+      "announcement": "Series B $37.3M (Merck GHI Fund + S32 co-led) — agentic AI infrastructure for pharma clinical-trial design/operations; possible physician co-founder (Ross A. Jaffe, unverified) but serves pharma sponsors",
+      "url": "https://www.finsmes.com/2026/08/faro-ai-raises-37-3m-in-series-b-funding.html",
+      "date_found": "2026-08-30",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — serves pharma clinical-trial operations/drug development sponsors, same treatment as QuantHealth"
+    },
+    {
+      "company": "Hike Medical",
+      "announcement": "Seed + Series A $22.5M (Saga Ventures led) — orthotics/prosthetics/DME supply-chain and referral-to-delivery logistics platform; no MD on founding team",
+      "url": "https://www.axios.com/pro/health-tech-deals/2026/08/24/hike-medical-series-a-raise",
+      "date_found": "2026-08-30",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — supply-chain/logistics marketplace, not clearly an AI-driven clinical-care product, same treatment as Nitra"
     }
   ]
 }
