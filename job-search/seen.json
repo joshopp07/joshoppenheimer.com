@@ -569,6 +569,14 @@
       "type": "funding_alert",
       "priority": "LOW",
       "notes": "Excluded — supply-chain/logistics marketplace, not clearly an AI-driven clinical-care product, same treatment as Nitra"
+    },
+    {
+      "company": "Avo",
+      "announcement": "Medical Director, AI Safety & Clinical Solutions — MD/DO/NP/PA license required, EHR-embedded clinical AI (Epic/athenahealth) for charting/diagnosis/decision support; AI-safety validation + customer-facing sales role, no ongoing patient care; $10M Series A (Noro-Moseley Partners, Apr 2026); $150K-$200K listed, below/at Josh's $200K floor",
+      "url": "https://job-boards.greenhouse.io/avomdincdbaavo/jobs/4245557009",
+      "date_found": "2026-08-31",
+      "type": "job_listing",
+      "score": 6
     }
   ]
 }
