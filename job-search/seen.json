@@ -577,6 +577,57 @@
       "date_found": "2026-08-31",
       "type": "job_listing",
       "score": 6
+    },
+    {
+      "company": "Norbert Health",
+      "announcement": "Series A $14M (William A. Marino/Cardinal Group; total raised $19M) — physical-AI robotic nursing assistants for skilled nursing facilities (contactless vitals, rounding, patient requests, EHR logging); CMO Dr. Xin He (MD) already in clinical leadership",
+      "url": "https://www.prnewswire.com/news-releases/norbert-health-raises-14-million-series-a-to-power-autonomous-robotic-nursing-assistants-302865486.html",
+      "date_found": "2026-09-03",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Thyme Care",
+      "announcement": "Series E $125M+ (Morgan Health led; >$2B valuation) — value-based oncology care navigation, launched new \"Thyme Companies\" parent entity; CEO Dr. Brad Diephuis (MD) and President/CMO Dr. Bobby Green (MD) already in clinical leadership",
+      "url": "https://www.prnewswire.com/news-releases/thyme-care-closes-125-million-series-e-establishes-thyme-companies-to-broaden-its-impact-across-the-oncology-ecosystem-302867835.html",
+      "date_found": "2026-09-03",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Elucid",
+      "announcement": "Series D $55M (undisclosed medtech strategic led; ~$185M total) — AI cardiovascular imaging diagnostics (Plaque-IQ CT plaque visualization, BioIntegrated FFR-CT); CMO Dr. Todd C. Villines already in place",
+      "url": "https://hitconsultant.net/2026/09/02/elucid-raises-55m-series-d-ai-plaque-iq-biointegrated-ffr-ct-cardiovascular-diagnostics/",
+      "date_found": "2026-09-03",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded from digest — cardiac-imaging-read domain, same treatment as Vista AI/Qureight; needs a cardiologist/radiologist reader, not an EM physician"
+    },
+    {
+      "company": "N-Power Medicine",
+      "announcement": "Series B $32M (Labcorp Venture Fund led) — external control-arm infrastructure for oncology clinical trials serving pharma sponsors; CEO Dr. Mark Lee (MD/PhD)",
+      "url": "https://hitconsultant.net/2026/09/01/n-power-medicine-raises-32m-series-b/",
+      "date_found": "2026-09-03",
+      "type": "funding_alert",
+      "priority": "EXCLUDED",
+      "notes": "Excluded — pharma/biotech clinical-trial infrastructure serving drug-development sponsors, same treatment as QuantHealth/Faro AI"
+    },
+    {
+      "company": "iPremom",
+      "announcement": "Seed ~$16M (Amadeus Capital Partners led) — EU-based first-trimester molecular diagnostic (cell-free RNA) predicting pregnancy complications",
+      "url": "https://www.eu-startups.com/2026/09/adressing-complicated-pregnancies-ipremom-raises-e15-million-to-advance-early-detection/",
+      "date_found": "2026-09-03",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — EU-focused (not US per geography preference), lab diagnostic rather than AI software, OB domain not an EM differentiator"
+    },
+    {
+      "company": "Flagler Health",
+      "announcement": "Head of Clinical Operations — explicitly recruits/manages a ~50-clinician distributed team",
+      "url": "N/A — LinkedIn/company careers posting, exact URL not captured",
+      "date_found": "2026-09-03",
+      "type": "job_listing",
+      "notes": "Excluded — clinical-staff-supervision hard exclude; Flagler remains a HIGH-priority funding lead (2026-08-11) for future clinical-strategy/product postings, logging to stop this specific role from resurfacing"
     }
   ]
 }
