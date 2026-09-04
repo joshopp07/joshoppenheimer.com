@@ -628,6 +628,54 @@
       "date_found": "2026-09-03",
       "type": "job_listing",
       "notes": "Excluded — clinical-staff-supervision hard exclude; Flagler remains a HIGH-priority funding lead (2026-08-11) for future clinical-strategy/product postings, logging to stop this specific role from resurfacing"
+    },
+    {
+      "company": "PatientIQ",
+      "announcement": "Series C $30M (Hughes & Company; ~$56M total) — EHR-integrated patient-reported-outcomes (PRO) intelligence platform used by 870+ health systems/practices, 17M+ patients, building real-world-evidence layer for medtech/life-sciences customers; Founder/CEO Matthew Gitelis is an MD (Rush Medical College)",
+      "url": "https://www.prnewswire.com/news-releases/patientiq-raises-30-million-series-c-to-power-the-next-generation-of-patient-reported-outcomes-intelligence-302868502.html",
+      "date_found": "2026-09-04",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Layer Health",
+      "announcement": "Head of Product (Boston/NYC, $260K-$300K) — LLM-based clinical-record synthesis platform; MD is a plus but not a stated requirement/differentiator for this specific req (separate MD-required Physician Informatician role exists)",
+      "url": "https://job-boards.greenhouse.io/layerhealth/jobs/4548708008",
+      "date_found": "2026-09-04",
+      "type": "job_listing",
+      "notes": "Excluded — no stated MD requirement/differentiator for this specific role"
+    },
+    {
+      "company": "Transcarent",
+      "announcement": "VP, Group Sales (West) — remote, $240K-$260K, employer/payer sales leadership for WayFinding platform",
+      "url": "https://job-boards.greenhouse.io/transcarent/jobs/5690595004",
+      "date_found": "2026-09-04",
+      "type": "job_listing",
+      "notes": "Excluded — pure commercial sales role, no MD/clinical requirement or differentiator stated"
+    },
+    {
+      "company": "Impiricus",
+      "announcement": "VP, Product (DocUpdate) — remote, $163K-$266.9K, physician-engagement/health-app tools for life-sciences companies",
+      "url": "https://builtin.com/job/general-manager-product-docupdate/7068825",
+      "date_found": "2026-09-04",
+      "type": "job_listing",
+      "notes": "Excluded — pharma-marketing-tech adjacent rather than direct clinical care; no MD requirement stated"
+    },
+    {
+      "company": "Found Health",
+      "announcement": "Medical Director — weight-management virtual care platform, 250,000+ patients; leads clinical innovation/strategy with CMO",
+      "url": "https://fractionalfinders.com/jobs/found",
+      "date_found": "2026-09-04",
+      "type": "job_listing",
+      "notes": "Excluded — ambiguous on whether role includes direct oversight of practicing providers (common at virtual-care 'Medical Director' titles); too uncertain to include with confidence, comp not listed"
+    },
+    {
+      "company": "Cohere Health",
+      "announcement": "Strategic Medical Director, PM&R / Post-Acute Care & DME",
+      "url": "https://job-boards.greenhouse.io/coherehealth/jobs/7758603003",
+      "date_found": "2026-09-04",
+      "type": "job_listing",
+      "notes": "Excluded — core product is prior-authorization automation (de-prioritized per product_mission_preference), plus PM&R specialty mismatch vs. EM background"
     }
   ]
 }
