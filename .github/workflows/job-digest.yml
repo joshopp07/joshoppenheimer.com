@@ -33,7 +33,7 @@ jobs:
 
       - name: Run job digest
         env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           claude --dangerously-skip-permissions -p "$(cat job-search/PROMPT.md)"
 
