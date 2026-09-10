@@ -676,6 +676,81 @@
       "date_found": "2026-09-04",
       "type": "job_listing",
       "notes": "Excluded — core product is prior-authorization automation (de-prioritized per product_mission_preference), plus PM&R specialty mismatch vs. EM background"
+    },
+    {
+      "company": "K Health",
+      "announcement": "Medical Director, Health System Partnerships — remote/NYC, $265K-$285K",
+      "url": "https://builtin.com/job/medical-director-health-system-partnerships/3317866",
+      "date_found": "2026-09-10",
+      "type": "job_listing",
+      "notes": "Excluded — explicitly involves managing clinic operations and practicing clinicians, trips clinical-staff-supervision exclusion"
+    },
+    {
+      "company": "Viz.ai",
+      "announcement": "Strategy and Innovation Director — remote, $194,225-$225,500",
+      "url": "https://builtin.com/job/strategy-and-innovation-director/4692094",
+      "date_found": "2026-09-10",
+      "type": "job_listing",
+      "notes": "Excluded — confirmed stale posting (originally posted Oct 22, 2025), outside 7-day window; also imaging/stroke-workflow domain de-prioritized"
+    },
+    {
+      "company": "Phronetik",
+      "announcement": "Chief Medical Officer — Plano, TX/remote, precision-medicine/bioinformatics and clinical-research-services company",
+      "url": "https://wellfound.com/jobs/3395447-chief-medical-officer",
+      "date_found": "2026-09-10",
+      "type": "job_listing",
+      "notes": "Excluded — clinical-research-dominant role at a research-services company, not a patient-facing digital health product; comp/date unverified"
+    },
+    {
+      "company": "Ladder Health",
+      "announcement": "Fractional Chief Medical Officer — remote/flexible, pediatric developmental care, physician-face/BD-partnerships role, pathway to full-time CMO",
+      "url": "https://himalayas.app/companies/ladder-health/jobs/fractional-chief-medical-officer-cmo",
+      "date_found": "2026-09-10",
+      "type": "job_listing",
+      "notes": "Excluded — posting date unverifiable within 7-day window and comp undisclosed; otherwise a plausible fractional fit, logging to revisit if it resurfaces with a confirmed date"
+    },
+    {
+      "company": "NewDays",
+      "announcement": "Seed extension $16M (Madrona, General Catalyst; $16M total) — AI-powered dementia/cognitive-impairment care platform, monthly telehealth visits with human clinicians + AI cognitive-training companion, expanded to 6th state; no MD/DO among founders",
+      "url": "https://www.geekwire.com/2026/newdays-brings-its-ai-driven-dementia-care-platform-to-nevada-expands-seed-round-to-16m/",
+      "date_found": "2026-09-10",
+      "type": "funding_alert",
+      "priority": "HIGH"
+    },
+    {
+      "company": "Forus",
+      "announcement": "Series C $150M (Bain Capital Ventures; ~$300M+ total, $3B valuation) — AI network connecting doctors/pharmacies/payers/biopharma to close prescription-to-treatment gap (insurance navigation, financial assistance, pharmacy logistics); no MD on founding team",
+      "url": "https://hitconsultant.net/2026/09/08/forus-raises-150m-series-c-3b-valuation-bain-capital-ventures-ai-prescriptions/",
+      "date_found": "2026-09-10",
+      "type": "funding_alert",
+      "priority": "MEDIUM-HIGH",
+      "notes": "Downgraded from mechanical HIGH (no MD) — medication-access/insurance-navigation infrastructure rather than clinical decision-making, same treatment as Assort Health"
+    },
+    {
+      "company": "Implicity",
+      "announcement": "Growth equity $40M (IRIS, Five Arrows) — AI-driven cardiac remote monitoring (implanted device monitoring + heart-failure prediction), 120K+ patients monitored daily, expanding US operations; CEO Dr. Arnaud Rosier (MD/PhD, cardiac electrophysiologist) already in clinical leadership",
+      "url": "https://www.globenewswire.com/news-release/2026/09/09/3358622/0/en/implicity-secures-40m-growth-equity-funding-to-scale-its-ai-driven-cardiac-monitoring-platform-globally.html",
+      "date_found": "2026-09-10",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "GenHealth.ai",
+      "announcement": "Series A $16.5M (Flare Capital Partners; $30M total) — AI agents for medical back-office/RCM (intake, eligibility, prior auth, billing/claims) on a claims-trained foundation model; no MD on founding team",
+      "url": "https://www.mobihealthnews.com/news/genhealthai-raises-165m-expand-healthcare-ai-agents",
+      "date_found": "2026-09-10",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — RCM/back-office product, same treatment as Candid Health/Arintra/Amperos Health"
+    },
+    {
+      "company": "Rightway Healthcare",
+      "announcement": "$155M financing (SEC Form D, no press release; ~$400M total) — care-navigation platform bundled with proprietary PBM; CMO Dr. Theodore Feldman (cardiologist) already in clinical leadership",
+      "url": "https://pomegra.io/startups/rightway-healthcare-s-155m-bet-against-the-pbm-oligopoly-2026-09-10",
+      "date_found": "2026-09-10",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — PBM/benefits-administration half is payer-adjacent, MD already on team, no formal funding announcement"
     }
   ]
 }
