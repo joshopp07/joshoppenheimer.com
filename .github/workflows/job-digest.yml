@@ -36,3 +36,44 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           claude --dangerously-skip-permissions -p "$(cat job-search/PROMPT.md)"
+
+      - name: Check for today's results
+        id: check
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          echo "date=${TODAY}" >> $GITHUB_OUTPUT
+          if [ -f "job-search/results/${TODAY}.md" ]; then
+            echo "has_results=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_results=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send digest email
+        if: steps.check.outputs.has_results == 'true'
+        env:
+          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RESULTS_DATE: ${{ steps.check.outputs.date }}
+        run: |
+          python3 - <<'EOF'
+          import smtplib, os
+          from email.mime.text import MIMEText
+
+          date = os.environ['RESULTS_DATE']
+          username = os.environ['GMAIL_USERNAME']
+          password = os.environ['GMAIL_APP_PASSWORD']
+
+          with open(f'job-search/results/{date}.md') as f:
+              body = f.read()
+
+          msg = MIMEText(body, 'plain')
+          msg['Subject'] = f'Job Digest — {date}'
+          msg['From'] = f'Job Digest <{username}>'
+          msg['To'] = username
+          msg['Reply-To'] = username
+
+          with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+              server.login(username, password)
+              server.send_message(msg)
+          print('Email sent successfully')
+          EOF
