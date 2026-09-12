@@ -759,6 +759,23 @@
       "date_found": "2026-09-11",
       "type": "funding_alert",
       "priority": "HIGH"
+    },
+    {
+      "company": "Vheda Health",
+      "announcement": "$47M growth investment (Agora, inaugural investment led by Neil Vangala; first institutional capital in Vheda's 13-year bootstrapped history) — outcomes/analytics platform for health plans, risk-stratifies high-risk chronic-disease members and triggers care interventions; no MD on founding/leadership team (CEO Shameet Luhar, health-informatics background)",
+      "url": "https://healthtechnologynet.com/2026/09/10/vheda-health-secures-47-million-investment-from-agora-to-scale-outcomes-and-analytics-platform-for-health-plans/",
+      "date_found": "2026-09-12",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "System",
+      "announcement": "Seed $20M (Patron, led by Amber Atherton) — vertically integrated telehealth platform prescribing personalized peptide protocols via US-licensed clinicians; no MD on founding team (CEO Adam Steinle, ex-Meta PM)",
+      "url": "https://www.prnewswire.com/news-releases/system-raises-20m-in-funding-to-become-the-trusted-peptide-native-platform-for-a-new-era-302873360.html",
+      "date_found": "2026-09-12",
+      "type": "funding_alert",
+      "priority": "LOW",
+      "notes": "Excluded — elective/longevity wellness peptide-prescribing telehealth, borders consumer-wellness exclusion, same treatment as Whoop/Throne Science"
     }
   ]
 }
