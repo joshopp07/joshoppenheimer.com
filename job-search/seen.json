@@ -776,6 +776,33 @@
       "type": "funding_alert",
       "priority": "LOW",
       "notes": "Excluded — elective/longevity wellness peptide-prescribing telehealth, borders consumer-wellness exclusion, same treatment as Whoop/Throne Science"
+    },
+    {
+      "company": "Evvy",
+      "announcement": "Series B $40M (Catalio Capital Management led; new investors US Fertility Innovation Fund, Rethink Impact, Muse Capital, Alumni Ventures; existing LabCorp Venture Fund, General Catalyst, Left Lane Capital) — AI-powered women's-health diagnostics (at-home vaginal microbiome/mNGS testing, clinician-reviewed results), expanding into fertility research on 100K+-patient dataset; no MD in C-suite (Chief Medical Advisor Dr. Kate McLean, OB/GYN, is advisory not executive)",
+      "url": "https://fortune.com/2026/09/15/evvy-series-b-womens-health-vaginal-microbiome-research/",
+      "date_found": "2026-09-16",
+      "type": "funding_alert",
+      "priority": "MEDIUM",
+      "notes": "Downgraded from mechanical HIGH (Series B, no MD) — OB/GYN-adjacent women's-health/fertility domain is a weaker fit for EM/general-medicine background, same treatment as iPremom"
+    },
+    {
+      "company": "Tandem Health",
+      "announcement": "Series B $100M (Scaleup Europe Fund/EQT led; ~$160M total) — AI-native \"Clinic Operating System\" for European care providers (Sweden-founded, 10,000+ orgs across 14 countries incl. NHS, Ramsay Santé, Humanitas): pre-visit summaries, ambient documentation/coding, clinical decision support; no confirmed MD in named C-suite",
+      "url": "https://tandemhealth.ai/resources/news/tandem-health-raises-100m-to-bring-european-healthcare-into-the-ai-era-led-by-the-scaleup-europe-fund-managed-by-eqt",
+      "date_found": "2026-09-16",
+      "type": "funding_alert",
+      "priority": "EXCLUDED",
+      "notes": "Excluded — Europe-focused product/customer base (Sweden HQ, NHS + European health systems, no stated US expansion), fails geography preference (product/role should be US-focused), same treatment as iPremom"
+    },
+    {
+      "company": "UrgentIQ",
+      "announcement": "Series A $15M (Five Elms Capital; $24.5M total) — AI-native EMR/clinical operating platform for urgent care centers, expanding into native billing/RCM; no MD on founding team",
+      "url": "https://www.prnewswire.com/news-releases/urgentiq-announces-strategic-growth-investment-from-five-elms-capital-302876441.html",
+      "date_found": "2026-09-16",
+      "type": "funding_alert",
+      "priority": "EXCLUDED",
+      "notes": "Excluded — same raise reviewed 2026-09-12 (deduped there without logging); AI-native EMR product hits pure-EHR-vendor exclusion, expanding into RCM/billing hits that exclusion too; logging now to stop resurfacing"
     }
   ]
 }
