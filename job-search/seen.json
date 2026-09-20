@@ -803,6 +803,22 @@
       "type": "funding_alert",
       "priority": "EXCLUDED",
       "notes": "Excluded — same raise reviewed 2026-09-12 (deduped there without logging); AI-native EMR product hits pure-EHR-vendor exclusion, expanding into RCM/billing hits that exclusion too; logging now to stop resurfacing"
+    },
+    {
+      "company": "Ayble Health",
+      "announcement": "Series A $16M oversubscribed (Neon led; Unum Ventures, Upfront Ventures, M13, Cleveland Clinic Ventures, DigiTx, Accomplice; ~$27M total) — AI-powered virtual multidisciplinary clinic for chronic digestive/autoimmune conditions (IBD, IBS); clinical leadership includes Dr. Trent Haywood and Dr. Miguel Regueiro (Cleveland Clinic Digestive Disease Institute) but non-clinician Founder/CEO Sam Jactel",
+      "url": "https://www.prnewswire.com/news-releases/ayble-health-raises-16m-series-a-to-expand-the-nations-most-clinically-validated-virtual-digestive-health-clinic-302880020.html",
+      "date_found": "2026-09-20",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Tempus AI",
+      "announcement": "Senior Vice President, Medical Affairs — NY, $365K-$475K, MD + 10 yrs clinical practice required",
+      "url": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Senior-Vice-President--Medical-Affairs_JR202600673",
+      "date_found": "2026-09-20",
+      "type": "job_listing",
+      "notes": "Excluded — requires oncology/molecular-diagnostics specialty specifically (not an EM-favorable domain), and role leans toward pharma-style KOL/medical-communications/clinical-research work rather than product or care strategy"
     }
   ]
 }
