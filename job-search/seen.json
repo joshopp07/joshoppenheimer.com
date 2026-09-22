@@ -819,6 +819,14 @@
       "date_found": "2026-09-20",
       "type": "job_listing",
       "notes": "Excluded — requires oncology/molecular-diagnostics specialty specifically (not an EM-favorable domain), and role leans toward pharma-style KOL/medical-communications/clinical-research work rather than product or care strategy"
+    },
+    {
+      "company": "Hippocratic AI",
+      "announcement": "Clinical Customer Success Executive (MD/DO required) — remote/multi-region (Columbus, Orlando, Chicago + others), reports to CMO, min 50% travel to client sites, salary not listed",
+      "url": "https://jobs.generalcatalyst.com/companies/hippocractic-ai/jobs/43502381-clinical-customer-success-executive-md-do-required",
+      "date_found": "2026-09-22",
+      "type": "job_listing",
+      "score": 5
     }
   ]
 }
