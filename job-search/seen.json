@@ -827,6 +827,14 @@
       "date_found": "2026-09-22",
       "type": "job_listing",
       "score": 5
+    },
+    {
+      "company": "Heidi Health",
+      "announcement": "$340M ($100M Series C equity led by Blackbird + $240M nondilutive from General Catalyst Customer Value Fund; $900M valuation) — AI \"Care Partner\" clinical-workflow platform (started as AI scribe, expanding into in-workflow AI agents for health systems); CEO/co-founder Dr. Thomas Kelly (MD) already in clinical leadership; Melbourne-founded/HQ'd but actively expanding into US health systems (Beth Israel Lahey Health, MaineGeneral)",
+      "url": "https://siliconangle.com/2026/09/22/heidi-health-nabs-340m-to-deepen-adoption-of-ai-agents-within-health-systems-globally/",
+      "date_found": "2026-09-22",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
