@@ -835,6 +835,14 @@
       "date_found": "2026-09-22",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Teal Health",
+      "announcement": "Series A $22M (.406 Ventures led; Emerson Collective, Forerunner, Serena Ventures, MPower Partners; $45M total) — FDA-authorized at-home HPV/cervical-cancer self-collection device (\"Teal Wand\") + telehealth results/follow-up care coordination, ahead of 2027 insurance mandate; co-founder Dr. Avnesh Thakor (MD/PhD, Stanford interventional radiologist) already on founding team but not an embedded clinical exec; CEO Kara Egan is non-clinical",
+      "url": "https://www.prnewswire.com/news-releases/teal-health-raises-22-million-series-a-to-expand-access-to-the-most-accurate-fda-authorized-at-home-hpv-cervical-cancer-screening-302885728.html",
+      "date_found": "2026-09-23",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
