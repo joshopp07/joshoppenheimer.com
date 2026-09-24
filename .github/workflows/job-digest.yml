@@ -52,38 +52,56 @@ jobs:
         if: steps.pick.outputs.files != ''
         run: pip install --quiet markdown
 
+      # Sent through Resend from josh@joshoppenheimer.com. The domain's own mail
+      # is Microsoft 365 via GoDaddy; Resend's DNS records live on the send. and
+      # resend._domainkey subdomains and leave the root MX and SPF untouched.
+      # The recipient is a secret, not a variable, because this repo's Action
+      # logs are public and only secrets are masked.
       - name: Send digest email
         if: steps.pick.outputs.files != ''
         env:
-          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
           FILES: ${{ steps.pick.outputs.files }}
         run: |
           python3 - <<'EOF'
+          import json
           import os
-          import smtplib
-          from email.mime.multipart import MIMEMultipart
-          from email.mime.text import MIMEText
+          import urllib.error
+          import urllib.request
           from pathlib import Path
 
           import markdown
 
-          # Secrets pasted into the GitHub UI can carry stray whitespace; app
-          # passwords are displayed by Google with spaces between groups.
-          username = os.environ['GMAIL_USERNAME'].strip()
-          password = ''.join(os.environ['GMAIL_APP_PASSWORD'].split())
+          SENDER = 'Job Digest <josh@joshoppenheimer.com>'
+          api_key = os.environ['RESEND_API_KEY'].strip()
+          recipients = [a.strip() for a in os.environ['DIGEST_TO'].split(',') if a.strip()]
+          if not api_key or not recipients:
+              raise SystemExit('RESEND_API_KEY and DIGEST_TO secrets must both be set')
 
-          with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
-              server.login(username, password)
-              for path in os.environ['FILES'].split():
-                  body = Path(path).read_text()
-                  date = Path(path).stem
-                  msg = MIMEMultipart('alternative')
-                  msg['Subject'] = f'Job Digest — {date}'
-                  msg['From'] = f'Job Digest <{username}>'
-                  msg['To'] = username
-                  msg.attach(MIMEText(body, 'plain', 'utf-8'))
-                  msg.attach(MIMEText(markdown.markdown(body), 'html', 'utf-8'))
-                  server.send_message(msg)
-                  print(f'Sent {path}')
+          for path in os.environ['FILES'].split():
+              body = Path(path).read_text()
+              payload = {
+                  'from': SENDER,
+                  'to': recipients,
+                  'reply_to': 'josh@joshoppenheimer.com',
+                  'subject': f'Job Digest — {Path(path).stem}',
+                  'text': body,
+                  'html': markdown.markdown(body),
+              }
+              req = urllib.request.Request(
+                  'https://api.resend.com/emails',
+                  data=json.dumps(payload).encode(),
+                  headers={
+                      'Authorization': f'Bearer {api_key}',
+                      'Content-Type': 'application/json',
+                      'User-Agent': 'joshoppenheimer-job-digest',
+                  },
+                  method='POST',
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      print(f'Sent {path}: {json.load(resp)["id"]}')
+              except urllib.error.HTTPError as e:
+                  raise SystemExit(f'Resend rejected {path}: HTTP {e.code} {e.read().decode()}')
           EOF
