@@ -851,6 +851,14 @@
       "date_found": "2026-09-24",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Abridge",
+      "announcement": "Senior Director, Clinical Success — leads team of Clinical Success Directors (MD/DO/PA/NP) driving clinician adoption of ambient clinical-documentation AI at enterprise health systems; Chicago or US-remote, $159,800-$230,300",
+      "url": "https://jobs.ashbyhq.com/abridge/2d3f8e61-52bd-42e6-a3a7-8b0ff4986e94",
+      "date_found": "2026-09-24",
+      "type": "job_listing",
+      "score": 6
     }
   ]
 }
