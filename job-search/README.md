@@ -19,8 +19,9 @@ prior runs). That session:
    the listings to `seen.json`, commits + pushes, and the final reply (which becomes the
    push notification) is the digest itself.
 7. The push of `results/YYYY-MM-DD.md` triggers the GitHub Action
-   `.github/workflows/job-digest.yml`, which emails that file via Gmail SMTP
-   (secrets `GMAIL_USERNAME`, `GMAIL_APP_PASSWORD`). The Action does not run Claude.
+   `.github/workflows/job-digest.yml`, which emails that file from
+   josh@joshoppenheimer.com through Resend (secrets `RESEND_API_KEY`, `DIGEST_TO`).
+   The Action does not run Claude.
    To resend a day: Actions → Email Job Digest → Run workflow, with the date.
 
 ## Tuning the search
