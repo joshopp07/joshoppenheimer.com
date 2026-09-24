@@ -1,7 +1,7 @@
 # Job Posting Digest
 
 Automated daily scan for digital health / health AI roles that fit Josh Oppenheimer's
-background, delivered as a push notification each morning.
+background, delivered each morning as a phone push notification and an email.
 
 ## How it works
 
@@ -18,6 +18,10 @@ prior runs). That session:
 6. If there are new matches, it writes a dated digest to `results/YYYY-MM-DD.md`, appends
    the listings to `seen.json`, commits + pushes, and the final reply (which becomes the
    push notification) is the digest itself.
+7. The push of `results/YYYY-MM-DD.md` triggers the GitHub Action
+   `.github/workflows/job-digest.yml`, which emails that file via Gmail SMTP
+   (secrets `GMAIL_USERNAME`, `GMAIL_APP_PASSWORD`). The Action does not run Claude.
+   To resend a day: Actions → Email Job Digest → Run workflow, with the date.
 
 ## Tuning the search
 
