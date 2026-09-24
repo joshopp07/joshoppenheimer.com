@@ -1,79 +1,89 @@
-name: Daily Job Search Digest
+name: Email Job Digest
 
+# The Claude cloud routine "Digital Health Job Posting Digest" does the research
+# each morning and pushes job-search/results/YYYY-MM-DD.md to the digest branch.
+# This workflow only emails that file; it does not run Claude.
 on:
-  schedule:
-    # 12:53 UTC = 7:53 AM EST (winter) / 8:53 AM EDT (summer)
-    - cron: '53 12 * * *'
-  workflow_dispatch: {}
+  push:
+    branches: [claude/job-posting-digest-6pcrvg]
+    paths: ['job-search/results/**']
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Results date to email (YYYY-MM-DD); blank = newest file'
+        required: false
+        default: ''
 
 jobs:
-  digest:
+  email:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
 
     steps:
       - uses: actions/checkout@v4
         with:
           ref: claude/job-posting-digest-6pcrvg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/joshopp07/joshoppenheimer.com.git
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-
-      - name: Install Claude Code CLI
-        run: npm install -g @anthropic-ai/claude-code
-
-      - name: Run job digest
+      - name: Pick results files
+        id: pick
         env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          INPUT_DATE: ${{ inputs.date }}
         run: |
-          claude --dangerously-skip-permissions -p "$(cat job-search/PROMPT.md)"
-
-      - name: Check for today's results
-        id: check
-        run: |
-          TODAY=$(date +%Y-%m-%d)
-          echo "date=${TODAY}" >> $GITHUB_OUTPUT
-          if [ -f "job-search/results/${TODAY}.md" ]; then
-            echo "has_results=true" >> $GITHUB_OUTPUT
+          set -euo pipefail
+          if [ "${GITHUB_EVENT_NAME}" = "push" ] && [ -n "${BEFORE}" ] \
+             && [ "${BEFORE}" != "0000000000000000000000000000000000000000" ]; then
+            files=$(git diff --name-only --diff-filter=AM "${BEFORE}" "${AFTER}" -- 'job-search/results/*.md')
+          elif [ -n "${INPUT_DATE:-}" ]; then
+            files="job-search/results/${INPUT_DATE}.md"
           else
-            echo "has_results=false" >> $GITHUB_OUTPUT
+            files=$(ls job-search/results/*.md | sort | tail -1)
           fi
+          for f in ${files}; do
+            [ -f "$f" ] || { echo "::error::Results file not found: $f"; exit 1; }
+          done
+          echo "files=$(echo ${files})" >> "$GITHUB_OUTPUT"
+          echo "Emailing: ${files:-<none>}"
+
+      - name: Install markdown renderer
+        if: steps.pick.outputs.files != ''
+        run: pip install --quiet markdown
 
       - name: Send digest email
-        if: steps.check.outputs.has_results == 'true'
+        if: steps.pick.outputs.files != ''
         env:
           GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          RESULTS_DATE: ${{ steps.check.outputs.date }}
+          FILES: ${{ steps.pick.outputs.files }}
         run: |
           python3 - <<'EOF'
-          import smtplib, os
+          import os
+          import smtplib
+          from email.mime.multipart import MIMEMultipart
           from email.mime.text import MIMEText
+          from pathlib import Path
 
-          date = os.environ['RESULTS_DATE']
-          username = os.environ['GMAIL_USERNAME']
-          password = os.environ['GMAIL_APP_PASSWORD']
+          import markdown
 
-          with open(f'job-search/results/{date}.md') as f:
-              body = f.read()
-
-          msg = MIMEText(body, 'plain')
-          msg['Subject'] = f'Job Digest — {date}'
-          msg['From'] = f'Job Digest <{username}>'
-          msg['To'] = username
-          msg['Reply-To'] = username
+          # Secrets pasted into the GitHub UI can carry stray whitespace; app
+          # passwords are displayed by Google with spaces between groups.
+          username = os.environ['GMAIL_USERNAME'].strip()
+          password = ''.join(os.environ['GMAIL_APP_PASSWORD'].split())
 
           with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
               server.login(username, password)
-              server.send_message(msg)
-          print('Email sent successfully')
+              for path in os.environ['FILES'].split():
+                  body = Path(path).read_text()
+                  date = Path(path).stem
+                  msg = MIMEMultipart('alternative')
+                  msg['Subject'] = f'Job Digest — {date}'
+                  msg['From'] = f'Job Digest <{username}>'
+                  msg['To'] = username
+                  msg.attach(MIMEText(body, 'plain', 'utf-8'))
+                  msg.attach(MIMEText(markdown.markdown(body), 'html', 'utf-8'))
+                  server.send_message(msg)
+                  print(f'Sent {path}')
           EOF
