@@ -859,6 +859,14 @@
       "date_found": "2026-09-24",
       "type": "job_listing",
       "score": 6
+    },
+    {
+      "company": "Precision Neuroscience",
+      "announcement": "Series D $250M oversubscribed (Pershing Square Inc. + Ackman Oxman Institute + undisclosed life-sciences fund co-led; ~$430M total, ~$1B+ valuation) — brain-computer interface (\"Layer 7 Cortical Interface\", non-penetrating cortical electrode array) for paralysis/brain-injury patients, 100+ patient procedures, advancing FDA review; co-founder/CSO Dr. Benjamin Rapoport (MD/PhD, practicing neurosurgeon, Icahn Mount Sinai) and Chief AI and Data Officer Dr. Craig Mermel (MD/PhD) already in leadership, CEO Michael Mager non-clinical",
+      "url": "https://www.globenewswire.com/news-release/2026/09/24/3368254/0/en/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund.html",
+      "date_found": "2026-09-25",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
