@@ -867,6 +867,15 @@
       "date_found": "2026-09-25",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Basalt Health",
+      "announcement": "Series A $20M (New Enterprise Associates led; Frist Cressey Ventures, 25m Health participating) — post-acute care transition/admissions automation, parses hospital-to-post-acute referrals and auto-generates clinical summaries; Lifepoint Health + ScionHealth partners, 111 markets; no MD/DO on founding team (CEO Ben Hackett, ex-Accolade product)",
+      "url": "https://www.businesswire.com/news/home/20260924615578/en/Basalt-Health-Raises-%2420M-Series-A-Led-by-NEA-to-Speed-Post-Acute-Admissions",
+      "date_found": "2026-09-28",
+      "type": "funding_alert",
+      "priority": "MEDIUM",
+      "notes": "Downgraded from mechanical HIGH (Series A, no MD) — referral/admissions workflow automation rather than direct clinical decision-making, same treatment as Forus/Hike Medical"
     }
   ]
 }
