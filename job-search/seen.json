@@ -884,6 +884,12 @@
       "date_found": "2026-09-30",
       "type": "funding_alert",
       "priority": "MEDIUM"
+    },
+    {
+      "company": "Healthleap",
+      "announcement": "$38M ($8M seed Sequoia/First Round + $30M Series A Hummingbird) \u2014 AI inpatient screening for missed diagnoses; no MD found on leadership",
+      "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+      "date_found": "2026-10-10"
     }
   ]
 }
