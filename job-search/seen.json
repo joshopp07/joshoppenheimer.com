@@ -796,6 +796,30 @@
       "url": "https://www.fiercehealthcare.com/health-tech/vitalize-secures-31m-scale-ai-powered-operating-system-hospital-staffing-and-scheduling",
       "date_found": "2026-10-11",
       "type": "funding_alert"
+    },
+    {
+      "company": "Suki",
+      "announcement": "Series E $90M (Healthier Capital) \u2014 ambient AI scribe; CMO Kevin Wang exists",
+      "url": "https://www.digitalhealthnews.com/suki-raises-90m-in-series-e-funding-for-healthcare-ai-",
+      "date_found": "2026-10-16",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Confido Health",
+      "announcement": "Series A extension $12.5M (Z47; $22.5M total) \u2014 admin agentic AI CareOS; no MD found",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/confido-health-expands-beyond-voice-ai-agentic-platform-medical-practices",
+      "date_found": "2026-10-16",
+      "type": "funding_alert",
+      "priority": "LOW-MEDIUM"
+    },
+    {
+      "company": "Counterpart Health",
+      "announcement": "Medical Director, Clinical Product \u2014 remote, $254K-$330K, requires 10+ yrs primary care IM/FM; skipped",
+      "url": "https://job-boards.greenhouse.io/counterparthealth/jobs/8081360",
+      "date_found": "2026-10-16",
+      "type": "job_listing",
+      "score": 5
     }
   ]
 }
