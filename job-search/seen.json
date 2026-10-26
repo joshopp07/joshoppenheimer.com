@@ -2,7 +2,7 @@
   "seen_listings": [
     {
       "company": "Hilo (by Aktiia)",
-      "announcement": "Series B extension $19M (Dell Family Office; ~$119M total) — FDA-cleared cuffless OTC blood pressure monitoring wristband, nationwide US launch Jul 21 2026; CMO Dr. Jay Shah (cardiologist) already in place",
+      "announcement": "Series B extension $19M (Dell Family Office; ~$119M total) \u2014 FDA-cleared cuffless OTC blood pressure monitoring wristband, nationwide US launch Jul 21 2026; CMO Dr. Jay Shah (cardiologist) already in place",
       "url": "https://www.linkedin.com/in/stefpetz/",
       "date_found": "2026-07-24",
       "type": "funding_alert",
@@ -10,7 +10,7 @@
     },
     {
       "company": "TidalSense",
-      "announcement": "Funding round $19M (Cross-Border Impact Ventures + returning investors BGF, Airstream Capital, Foresight Group; ~$40M total incl. grants) — AI-powered respiratory diagnostics (N-Tidal breath test for COPD/asthma), UK company entering US market; CEO Dr. Ameera Patel (MD/PhD) already on founding team",
+      "announcement": "Funding round $19M (Cross-Border Impact Ventures + returning investors BGF, Airstream Capital, Foresight Group; ~$40M total incl. grants) \u2014 AI-powered respiratory diagnostics (N-Tidal breath test for COPD/asthma), UK company entering US market; CEO Dr. Ameera Patel (MD/PhD) already on founding team",
       "url": "https://www.mobihealthnews.com/news/tidalsense-raises-19m-improve-copd-diagnostics",
       "date_found": "2026-07-27",
       "type": "funding_alert",
@@ -18,7 +18,7 @@
     },
     {
       "company": "Karoo Health",
-      "announcement": "Series A $16.2M (oversubscribed, co-led 7wire Ventures + Allumia Ventures) — AI-native platform integrating EHR/claims/pharmacy/care-team data for early cardiac risk detection and value-based cardiology care; CMO Dr. Aneesh Pakala (cardiologist) already in place",
+      "announcement": "Series A $16.2M (oversubscribed, co-led 7wire Ventures + Allumia Ventures) \u2014 AI-native platform integrating EHR/claims/pharmacy/care-team data for early cardiac risk detection and value-based cardiology care; CMO Dr. Aneesh Pakala (cardiologist) already in place",
       "url": "https://www.prnewswire.com/news-releases/karoo-health-announces-oversubscribed-16-2-million-series-a-co-led-by-7wire-ventures-and-allumia-ventures-302830121.html",
       "date_found": "2026-07-28",
       "type": "funding_alert",
@@ -26,7 +26,7 @@
     },
     {
       "company": "Prosper Medical",
-      "announcement": "Seed $16M (led by FUSE) — AI-powered concierge primary care, dedicated physicians + AI layer for records/labs/referrals; Co-founder/CMO Dr. James Wantuck (ex-PlushCare) already on founding team",
+      "announcement": "Seed $16M (led by FUSE) \u2014 AI-powered concierge primary care, dedicated physicians + AI layer for records/labs/referrals; Co-founder/CMO Dr. James Wantuck (ex-PlushCare) already on founding team",
       "url": "https://www.businesswire.com/news/home/20260723537845/en/Prosper-Medical-Raises-$16M-to-Bring-AI-powered-Concierge-Care-to-All",
       "date_found": "2026-07-28",
       "type": "funding_alert",
@@ -34,34 +34,34 @@
     },
     {
       "company": "Assured (Assured Health)",
-      "announcement": "Series A $19M (Insight Partners; $25M total) — agentic AI for provider credentialing and payer enrollment; no MD on founding team",
+      "announcement": "Series A $19M (Insight Partners; $25M total) \u2014 agentic AI for provider credentialing and payer enrollment; no MD on founding team",
       "url": "https://www.fiercehealthcare.com/finance/startup-assured-banks-19m-series-ai-native-credientialing-provider-enrollment",
       "date_found": "2026-07-28",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — credentialing/payer-enrollment back-office automation, not clinical care, same treatment as Nitra"
+      "notes": "Excluded \u2014 credentialing/payer-enrollment back-office automation, not clinical care, same treatment as Nitra"
     },
     {
       "company": "Candid Health",
-      "announcement": "Series D $120M (Sixth Street Growth) — AI-powered autonomous revenue cycle management/medical billing automation; no MD on founding team",
+      "announcement": "Series D $120M (Sixth Street Growth) \u2014 AI-powered autonomous revenue cycle management/medical billing automation; no MD on founding team",
       "url": "https://www.businesswire.com/news/home/20260721951537/en/Candid-Health-Raises-%24120M-Led-by-Sixth-Street-Growth-to-Fuel-Autonomous-Revenue-Cycle-Management-in-Healthcare",
       "date_found": "2026-07-28",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — RCM/billing automation, not clinical care improvement, same treatment as Amperos Health"
+      "notes": "Excluded \u2014 RCM/billing automation, not clinical care improvement, same treatment as Amperos Health"
     },
     {
       "company": "Flourish Health",
-      "announcement": "Series A $26M (B Capital, F-Prime Capital, Cherryrock Capital; $46M total) — in-home psychiatrist-led high-acuity mental health care for children/young adults in crisis; Co-founder Dr. Natalia Birgisson (MD) already in clinical leadership",
+      "announcement": "Series A $26M (B Capital, F-Prime Capital, Cherryrock Capital; $46M total) \u2014 in-home psychiatrist-led high-acuity mental health care for children/young adults in crisis; Co-founder Dr. Natalia Birgisson (MD) already in clinical leadership",
       "url": "https://hitconsultant.net/2026/07/27/flourish-health-high-acuity-youth-mental-health/",
       "date_found": "2026-07-28",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — mental-health-focused domain de-prioritized per config, and MD already on founding team"
+      "notes": "Excluded \u2014 mental-health-focused domain de-prioritized per config, and MD already on founding team"
     },
     {
       "company": "Regard",
-      "announcement": "Medical Director, Clinical Solutions — reports to CMO, leads clinical demos/client readiness/GTM for AI diagnosis-support + note-drafting product; Series B (~$84M total)",
+      "announcement": "Medical Director, Clinical Solutions \u2014 reports to CMO, leads clinical demos/client readiness/GTM for AI diagnosis-support + note-drafting product; Series B (~$84M total)",
       "url": "https://jobs.ashbyhq.com/regard/14002803-a322-406c-8f2a-ded757720972",
       "date_found": "2026-07-30",
       "type": "job_listing",
@@ -69,7 +69,7 @@
     },
     {
       "company": "Abridge",
-      "announcement": "Clinical Success Director (Remote) — requires 5+ yrs practicing clinician (MD/DO/PA/NP), Epic fluency; customer-success/BD leadership for ambient documentation AI",
+      "announcement": "Clinical Success Director (Remote) \u2014 requires 5+ yrs practicing clinician (MD/DO/PA/NP), Epic fluency; customer-success/BD leadership for ambient documentation AI",
       "url": "https://jobs.ashbyhq.com/abridge/0aebb9cf-5baa-41af-a9c6-f9ecd95969ae",
       "date_found": "2026-07-30",
       "type": "job_listing",
@@ -77,7 +77,7 @@
     },
     {
       "company": "Vivid Dx",
-      "announcement": "Seed $15M (Oxford Science Enterprises + Cedars-Sinai IP Co.) — direct-from-blood sepsis/AMR diagnostics (pathogen ID + antimicrobial susceptibility via Raman spectroscopy + AI), no MD/CMO on team",
+      "announcement": "Seed $15M (Oxford Science Enterprises + Cedars-Sinai IP Co.) \u2014 direct-from-blood sepsis/AMR diagnostics (pathogen ID + antimicrobial susceptibility via Raman spectroscopy + AI), no MD/CMO on team",
       "url": "https://www.prnewswire.com/news-releases/vivid-dx-raises-15m-to-help-hospitals-confront-one-of-modern-medicines-most-urgent-threats-drug-resistant-infections-302836178.html",
       "date_found": "2026-07-30",
       "type": "funding_alert",
@@ -85,34 +85,34 @@
     },
     {
       "company": "Precise Behavioral",
-      "announcement": "$14.2M growth round (A1 Health Ventures) — physician-led behavioral health platform targeting ED boarding; Founder/CEO Dr. Nitin Nanda (MD) already in clinical leadership",
+      "announcement": "$14.2M growth round (A1 Health Ventures) \u2014 physician-led behavioral health platform targeting ED boarding; Founder/CEO Dr. Nitin Nanda (MD) already in clinical leadership",
       "url": "https://bhbusiness.com/2026/07/29/exclusive-precise-behavioral-lands-14-2-million-to-tackle-ed-boarding-eliminate-vendor-soup/",
       "date_found": "2026-07-30",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — mental/behavioral health domain de-prioritized per config, and MD already founds/leads the company"
+      "notes": "Excluded \u2014 mental/behavioral health domain de-prioritized per config, and MD already founds/leads the company"
     },
     {
       "company": "SoundHealth",
-      "announcement": "Series A $12.25M (Shangbay Capital) — FDA-cleared acoustic-resonance wearable for rhinitis/sleep; MDs Dr. Bryant Lin and Dr. Peter Hwang already in clinical leadership",
+      "announcement": "Series A $12.25M (Shangbay Capital) \u2014 FDA-cleared acoustic-resonance wearable for rhinitis/sleep; MDs Dr. Bryant Lin and Dr. Peter Hwang already in clinical leadership",
       "url": "https://www.axios.com/pro/health-tech-deals/2026/07/28/medtech-soundhealth-series-a",
       "date_found": "2026-07-30",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — consumer ENT/sleep wellness device, weak fit for EM background, and MDs already on team"
+      "notes": "Excluded \u2014 consumer ENT/sleep wellness device, weak fit for EM background, and MDs already on team"
     },
     {
       "company": "Qureight",
-      "announcement": "Series B $20M (Molten Ventures) — AI imaging platform for lung/heart clinical-trial endpoints, Cambridge UK",
+      "announcement": "Series B $20M (Molten Ventures) \u2014 AI imaging platform for lung/heart clinical-trial endpoints, Cambridge UK",
       "url": "https://tech.eu/2026/07/29/qureight-secures-20m-series-b-to-expand-ai-powered-imaging-platform-for-clinical-trials/",
       "date_found": "2026-07-30",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — imaging + clinical-trials focus, same treatment as Vista AI; needs a radiologist/pulmonologist reader, not an EM physician"
+      "notes": "Excluded \u2014 imaging + clinical-trials focus, same treatment as Vista AI; needs a radiologist/pulmonologist reader, not an EM physician"
     },
     {
       "company": "Function Health",
-      "announcement": "Growth financing $450M (General Catalyst Customer Value Fund; ~$800M+ total, ~$2.5B valuation) — consumer membership platform for lab biomarker panels + AI longitudinal health analytics; recently acquired Getlabs and SuppCo; co-founder Mark Hyman, MD is CMO",
+      "announcement": "Growth financing $450M (General Catalyst Customer Value Fund; ~$800M+ total, ~$2.5B valuation) \u2014 consumer membership platform for lab biomarker panels + AI longitudinal health analytics; recently acquired Getlabs and SuppCo; co-founder Mark Hyman, MD is CMO",
       "url": "https://www.prnewswire.com/news-releases/function-secures-450-million-growth-financing-from-general-catalysts-customer-value-fund-cvf-302838766.html",
       "date_found": "2026-08-02",
       "type": "funding_alert",
@@ -120,25 +120,25 @@
     },
     {
       "company": "Ahead Health",
-      "announcement": "Seed extension €8.7M (~$10M, 3VC + RTP Global; ~$16M total) — Zurich preventive health platform bundling full-body MRI + biomarker panel + AI analysis; expanding to Germany/Netherlands; heavily radiology/imaging-centered",
+      "announcement": "Seed extension \u20ac8.7M (~$10M, 3VC + RTP Global; ~$16M total) \u2014 Zurich preventive health platform bundling full-body MRI + biomarker panel + AI analysis; expanding to Germany/Netherlands; heavily radiology/imaging-centered",
       "url": "https://www.eu-startups.com/2026/07/swiss-preventive-healthtech-startup-ahead-health-secures-e8-7-million-and-launches-in-germany-and-the-netherlands/",
       "date_found": "2026-08-02",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — heavily MRI/radiology-centered preventive screening, same treatment as Neko Health/Vista AI"
+      "notes": "Excluded \u2014 heavily MRI/radiology-centered preventive screening, same treatment as Neko Health/Vista AI"
     },
     {
       "company": "Throne Science",
-      "announcement": "Series A $10M (Will Ventures; Emerson Collective, Felix Capital participating) — toilet-mounted AI sensor tracking gut health/hydration/urinary function; no MD on founding team found",
+      "announcement": "Series A $10M (Will Ventures; Emerson Collective, Felix Capital participating) \u2014 toilet-mounted AI sensor tracking gut health/hydration/urinary function; no MD on founding team found",
       "url": "https://www.businesswire.com/news/home/20260728282605/en/Throne-Science-Maker-of-Smart-Toilet-Sensor-Announces-$10-Million-Series-A-Fundraise",
       "date_found": "2026-08-02",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — consumer wellness device, not clinical care, same treatment as Whoop"
+      "notes": "Excluded \u2014 consumer wellness device, not clinical care, same treatment as Whoop"
     },
     {
       "company": "Cadence",
-      "announcement": "Medical Director — remote, MD/DO required, field-first clinical liaison to partner providers for chronic-disease RPM program (Series C)",
+      "announcement": "Medical Director \u2014 remote, MD/DO required, field-first clinical liaison to partner providers for chronic-disease RPM program (Series C)",
       "url": "https://www.cadence.care/jobs/medical-director",
       "date_found": "2026-08-03",
       "type": "job_listing",
@@ -146,7 +146,7 @@
     },
     {
       "company": "Doctronic",
-      "announcement": "Medical Director — MD/DO required, EM board certification strongly preferred, clinical pathway/product-design role partnering with CMO Dr. Byron Crowe (Series B)",
+      "announcement": "Medical Director \u2014 MD/DO required, EM board certification strongly preferred, clinical pathway/product-design role partnering with CMO Dr. Byron Crowe (Series B)",
       "url": "https://jobs.ashbyhq.com/doctronic/97cbd557-e802-48aa-b1ff-0e602b8354e8",
       "date_found": "2026-08-03",
       "type": "job_listing",
@@ -154,7 +154,7 @@
     },
     {
       "company": "Inocras",
-      "announcement": "Series B-3 $31M oversubscribed (~$100M total) — AI whole-genome sequencing/bioinformatics for precision oncology (CancerVision, MRDVision), U.S. commercial expansion; MD co-founder Dr. Jeong Seok Lee already Chief Innovation Officer",
+      "announcement": "Series B-3 $31M oversubscribed (~$100M total) \u2014 AI whole-genome sequencing/bioinformatics for precision oncology (CancerVision, MRDVision), U.S. commercial expansion; MD co-founder Dr. Jeong Seok Lee already Chief Innovation Officer",
       "url": "https://www.businesswire.com/news/home/20260803380549/en/Inocras-Closes-$31-Million-in-Oversubscribed-Series-B-3-Financing-to-Accelerate-U.S.-Commercial-Expansion",
       "date_found": "2026-08-04",
       "type": "funding_alert",
@@ -162,7 +162,7 @@
     },
     {
       "company": "Wellinks",
-      "announcement": "Series B (first close) $10M (UMass Memorial Health + inside investors) — FDA-cleared cardiopulmonary RPM platform (Spire + Health Tags) for COPD/CHF, predictive deterioration alerts; CMO Dr. Abi Sundaramoorthy already in place, CEO Stacie Bratcher is a PT not MD",
+      "announcement": "Series B (first close) $10M (UMass Memorial Health + inside investors) \u2014 FDA-cleared cardiopulmonary RPM platform (Spire + Health Tags) for COPD/CHF, predictive deterioration alerts; CMO Dr. Abi Sundaramoorthy already in place, CEO Stacie Bratcher is a PT not MD",
       "url": "https://www.prnewswire.com/news-releases/wellinks-closed-10-million-series-b-funding-from-umass-memorial-health-and-inside-investors-302842712.html",
       "date_found": "2026-08-06",
       "type": "funding_alert",
@@ -170,7 +170,7 @@
     },
     {
       "company": "CoreMap",
-      "announcement": "Series C $37M oversubscribed (Medtronic-led) — electrophysiology mapping platform for AFib ablation guidance; co-founder/CSO Dr. Peter Spector (practicing electrophysiologist) already in clinical leadership",
+      "announcement": "Series C $37M oversubscribed (Medtronic-led) \u2014 electrophysiology mapping platform for AFib ablation guidance; co-founder/CSO Dr. Peter Spector (practicing electrophysiologist) already in clinical leadership",
       "url": "https://www.massdevice.com/medtronic-leads-37m-round-coremap/",
       "date_found": "2026-08-06",
       "type": "funding_alert",
@@ -178,16 +178,16 @@
     },
     {
       "company": "QuantHealth",
-      "announcement": "Series B $45M (Qumra Capital led; Sanofi Ventures participating) — AI clinical trial simulation platform for pharma sponsors",
+      "announcement": "Series B $45M (Qumra Capital led; Sanofi Ventures participating) \u2014 AI clinical trial simulation platform for pharma sponsors",
       "url": "https://www.calcalistech.com/ctechnews/article/skzri8y8zl",
       "date_found": "2026-08-06",
       "type": "funding_alert",
       "priority": "EXCLUDED",
-      "notes": "Excluded — clinical trial simulation software serving pharma sponsors, falls under pharma/biotech drug development exclusion"
+      "notes": "Excluded \u2014 clinical trial simulation software serving pharma sponsors, falls under pharma/biotech drug development exclusion"
     },
     {
       "company": "HealthSnap",
-      "announcement": "$25M senior secured growth financing facility (Eastward Capital Partners) — AI-powered virtual care management platform (RPM/CCM/APCM) used by 200+ health systems; venture debt not equity; no MD on founding/leadership team",
+      "announcement": "$25M senior secured growth financing facility (Eastward Capital Partners) \u2014 AI-powered virtual care management platform (RPM/CCM/APCM) used by 200+ health systems; venture debt not equity; no MD on founding/leadership team",
       "url": "https://www.prnewswire.com/news-releases/healthsnap-secures-25-million-growth-financing-to-accelerate-ai-powered-virtual-care-management-leadership-302845017.html",
       "date_found": "2026-08-07",
       "type": "funding_alert",
@@ -195,7 +195,7 @@
     },
     {
       "company": "Hippocratic AI",
-      "announcement": "VP of Clinical Affairs — MD/DO + board certification required, client-facing role advising health-system C-suite on adoption of clinical AI agents",
+      "announcement": "VP of Clinical Affairs \u2014 MD/DO + board certification required, client-facing role advising health-system C-suite on adoption of clinical AI agents",
       "url": "https://www.linkedin.com/jobs/view/vice-president-of-clinical-ai-at-hippocratic-ai-3845880434",
       "date_found": "2026-08-11",
       "type": "job_listing",
@@ -203,7 +203,7 @@
     },
     {
       "company": "Flagler Health",
-      "announcement": "Series B $50M (Axios Pro exclusive, lead investor undisclosed) — AI-native MSK care operating system (triage, virtual PT, chronic care management, RTM) plus practice-management infrastructure; no MD on founding team",
+      "announcement": "Series B $50M (Axios Pro exclusive, lead investor undisclosed) \u2014 AI-native MSK care operating system (triage, virtual PT, chronic care management, RTM) plus practice-management infrastructure; no MD on founding team",
       "url": "https://www.axios.com/pro/health-tech-deals/2026/08/10/flagler-health-50m-msk",
       "date_found": "2026-08-11",
       "type": "funding_alert",
@@ -211,7 +211,7 @@
     },
     {
       "company": "Wheel",
-      "announcement": "Chief Medical Officer (Fractional) — remote, MD/DO + 10 yrs practice + 7 yrs virtual-care/health-tech leadership required; \"Clinical Closer\" for enterprise sales plus oversight of Clinical Quality Improvement programs, at B2B virtual-care infrastructure platform",
+      "announcement": "Chief Medical Officer (Fractional) \u2014 remote, MD/DO + 10 yrs practice + 7 yrs virtual-care/health-tech leadership required; \"Clinical Closer\" for enterprise sales plus oversight of Clinical Quality Improvement programs, at B2B virtual-care infrastructure platform",
       "url": "https://jobs.ashbyhq.com/wheel/c2bc8271-1962-4a66-9fe9-67dafd9727fc",
       "date_found": "2026-08-13",
       "type": "job_listing",
@@ -219,7 +219,7 @@
     },
     {
       "company": "Hippocratic AI",
-      "announcement": "Associate Chief Medical Officer, Partnerships — clinically trained physician required, reports to CMO, in-office 5 days/week Palo Alto, BD/partnerships role covering Midwest/East health-system partners",
+      "announcement": "Associate Chief Medical Officer, Partnerships \u2014 clinically trained physician required, reports to CMO, in-office 5 days/week Palo Alto, BD/partnerships role covering Midwest/East health-system partners",
       "url": "https://jobs.ashbyhq.com/Hippocratic%20AI/4ec195a9-35c1-4a45-89a0-0fbb1f2064a8",
       "date_found": "2026-08-13",
       "type": "job_listing",
@@ -227,7 +227,7 @@
     },
     {
       "company": "Aligned Marketplace",
-      "announcement": "Series A $20M (Venrock, partner Bob Kocher MD; $31M total) — marketplace connecting self-funded employers/TPAs to network of 3,000+ independent advanced/direct primary care practices; value-based contracting layer, not a proprietary AI product; no MD on founding team",
+      "announcement": "Series A $20M (Venrock, partner Bob Kocher MD; $31M total) \u2014 marketplace connecting self-funded employers/TPAs to network of 3,000+ independent advanced/direct primary care practices; value-based contracting layer, not a proprietary AI product; no MD on founding team",
       "url": "https://medcitynews.com/2026/08/aligned-marketplace-secures-20m-for-advanced-primary-care-marketplace/",
       "date_found": "2026-08-15",
       "type": "funding_alert",
@@ -235,11 +235,11 @@
     },
     {
       "company": "Hyro",
-      "announcement": "VP Clinical Product Strategy (NYC) — LinkedIn listing appears stale; role already filled by Dr. Sindhu Pandit per June 2026 PRNewswire release",
+      "announcement": "VP Clinical Product Strategy (NYC) \u2014 LinkedIn listing appears stale; role already filled by Dr. Sindhu Pandit per June 2026 PRNewswire release",
       "url": "https://www.linkedin.com/jobs/view/vp-clinical-product-strategy-nyc-at-hyro-4350407454",
       "date_found": "2026-08-15",
       "type": "job_listing",
-      "notes": "Excluded — appears to be a filled/stale posting; otherwise would be a strong fit (MD/CMIO differentiator, no patient care)"
+      "notes": "Excluded \u2014 appears to be a filled/stale posting; otherwise would be a strong fit (MD/CMIO differentiator, no patient care)"
     },
     {
       "company": "Cohere Health",
@@ -247,7 +247,7 @@
       "url": "https://boards.greenhouse.io/coherehealth/jobs/5604713003",
       "date_found": "2026-08-15",
       "type": "job_listing",
-      "notes": "Excluded — core product is prior-authorization/utilization-management automation, de-prioritized per product_mission_preference"
+      "notes": "Excluded \u2014 core product is prior-authorization/utilization-management automation, de-prioritized per product_mission_preference"
     },
     {
       "company": "Included Health",
@@ -255,19 +255,19 @@
       "url": "https://builtin.com/job/care-navigation-medical-director/3187124",
       "date_found": "2026-08-15",
       "type": "job_listing",
-      "notes": "Excluded — role includes a ~20 hrs/week direct clinical patient-care caseload, violates the no-direct-patient-care requirement"
+      "notes": "Excluded \u2014 role includes a ~20 hrs/week direct clinical patient-care caseload, violates the no-direct-patient-care requirement"
     },
     {
       "company": "Agilon Health",
-      "announcement": "VP, Clinical Strategy (MD or DO) — remote, $220,400-$275,400 listed",
+      "announcement": "VP, Clinical Strategy (MD or DO) \u2014 remote, $220,400-$275,400 listed",
       "url": "https://agilonhealth.wd1.myworkdayjobs.com/en-US/External/job/Remote-VP--Clinical-Strategy--MD-or-DO-_R003227",
       "date_found": "2026-08-18",
       "type": "job_listing",
-      "notes": "Excluded — posting freshness within 7-day window unverifiable (possible evergreen requisition); large publicly-traded (NYSE: AGL) value-based-care/PCP-enablement incumbent, not an AI-driven clinical product"
+      "notes": "Excluded \u2014 posting freshness within 7-day window unverifiable (possible evergreen requisition); large publicly-traded (NYSE: AGL) value-based-care/PCP-enablement incumbent, not an AI-driven clinical product"
     },
     {
       "company": "Bios Life",
-      "announcement": "Seed $25M (Redmile Group, Vsquared Ventures, Kindred Capital) — emerged from stealth, AI cancer-risk/surveillance \"digital twin\" platform (genomic + clinical + daily health-signal data), virtual clinician-staffed care, Tempus data alliance + BioNTech-InstaDeep genomics foundation model rights; co-founder/CMO Dr. Logan Frank (radiologist) already in clinical leadership",
+      "announcement": "Seed $25M (Redmile Group, Vsquared Ventures, Kindred Capital) \u2014 emerged from stealth, AI cancer-risk/surveillance \"digital twin\" platform (genomic + clinical + daily health-signal data), virtual clinician-staffed care, Tempus data alliance + BioNTech-InstaDeep genomics foundation model rights; co-founder/CMO Dr. Logan Frank (radiologist) already in clinical leadership",
       "url": "https://techfundingnews.com/bios-life-25m-cancer-screening-digital-twins/",
       "date_found": "2026-08-18",
       "type": "funding_alert",
@@ -275,7 +275,7 @@
     },
     {
       "company": "Happy Health",
-      "announcement": "Series A $75M (ARCH Venture Partners + OpenLoop) — FDA-cleared smart ring (Happy Ring) for multi-night at-home sleep testing (OSA, insomnia) plus continuous biometrics, AI-powered physician-guided home care platform, expanding into cardiovascular/metabolic chronic-disease detection; Founder/CEO Dustin Freckleton is an MD",
+      "announcement": "Series A $75M (ARCH Venture Partners + OpenLoop) \u2014 FDA-cleared smart ring (Happy Ring) for multi-night at-home sleep testing (OSA, insomnia) plus continuous biometrics, AI-powered physician-guided home care platform, expanding into cardiovascular/metabolic chronic-disease detection; Founder/CEO Dustin Freckleton is an MD",
       "url": "https://www.fiercehealthcare.com/finance/happy-health-secures-75m-ai-driven-home-based-care-platform",
       "date_found": "2026-08-19",
       "type": "funding_alert",
@@ -283,7 +283,7 @@
     },
     {
       "company": "Craif Inc.",
-      "announcement": "Series D $33M (co-led Granite-Integral + Tauns Co.; ~$88M total) — urine-based microRNA test platform for early non-invasive cancer detection (pancreatic cancer focus), expanding to US; no MD/CMO identified on leadership",
+      "announcement": "Series D $33M (co-led Granite-Integral + Tauns Co.; ~$88M total) \u2014 urine-based microRNA test platform for early non-invasive cancer detection (pancreatic cancer focus), expanding to US; no MD/CMO identified on leadership",
       "url": "https://hitconsultant.net/2026/08/18/craif-raises-series-d-urine-cancer-detection-us-expansion/",
       "date_found": "2026-08-20",
       "type": "funding_alert",
@@ -291,7 +291,7 @@
     },
     {
       "company": "Cityblock Health",
-      "announcement": "Series E $116M (General Catalyst) — paired with all-stock acquisition of Homeward Health (rural-first Medicare Advantage model, ~50K members incl. BCBS Michigan partnership); combined entity ~200K members across Medicaid/Medicare Advantage/dual-eligible, $2.2B annualized revenue (+77% YoY); Co-founder/CEO Dr. Toyin Ajayi (MD, Family Medicine) already in clinical leadership",
+      "announcement": "Series E $116M (General Catalyst) \u2014 paired with all-stock acquisition of Homeward Health (rural-first Medicare Advantage model, ~50K members incl. BCBS Michigan partnership); combined entity ~200K members across Medicaid/Medicare Advantage/dual-eligible, $2.2B annualized revenue (+77% YoY); Co-founder/CEO Dr. Toyin Ajayi (MD, Family Medicine) already in clinical leadership",
       "url": "https://hitconsultant.net/2026/08/20/cityblock-acquires-homeward-health-116m-series-e-government-programs/",
       "date_found": "2026-08-21",
       "type": "funding_alert",
@@ -299,7 +299,7 @@
     },
     {
       "company": "Hopscotch Primary Care",
-      "announcement": "Series D $53M (8VC + Townhall Ventures, new backers John Doerr + Dr. Richard Merkin) — tech-enabled value-based primary care for rural Medicare patients, expanding beyond Western North Carolina; CMO Dr. Aditi Mallick (ex-CMS) already in clinical leadership, CEO Tim Gronniger is non-MD",
+      "announcement": "Series D $53M (8VC + Townhall Ventures, new backers John Doerr + Dr. Richard Merkin) \u2014 tech-enabled value-based primary care for rural Medicare patients, expanding beyond Western North Carolina; CMO Dr. Aditi Mallick (ex-CMS) already in clinical leadership, CEO Tim Gronniger is non-MD",
       "url": "https://www.fiercehealthcare.com/providers/rural-primary-care-company-hopscotch-clinches-53m-expand-beyond-nc",
       "date_found": "2026-08-21",
       "type": "funding_alert",
@@ -307,7 +307,7 @@
     },
     {
       "company": "Hippocratic AI",
-      "announcement": "Associate Chief Medical Officer — MD/clinical degree with recent clinical practice required, product-facing role informing design/roadmap of AI healthcare products, in-office 5 days/week Palo Alto, no patient care or staff supervision",
+      "announcement": "Associate Chief Medical Officer \u2014 MD/clinical degree with recent clinical practice required, product-facing role informing design/roadmap of AI healthcare products, in-office 5 days/week Palo Alto, no patient care or staff supervision",
       "url": "https://jobs.generalcatalyst.com/companies/hippocractic-ai/jobs/44452876-associate-chief-medical-officer",
       "date_found": "2026-08-22",
       "type": "job_listing",
@@ -315,16 +315,16 @@
     },
     {
       "company": "MaxQ Medical",
-      "announcement": "Series A $31.5M (Atlantic Blue Ventures, S3 Ventures, Olympus Innovation Ventures; ~$40M+ total) — all-in-one transurethral imaging + tissue-selective therapy platform for prostate care (BPH first, expanding to focal prostate-cancer therapy), Stanford-derived CMUT ultrasound; no MD on founding/executive leadership",
+      "announcement": "Series A $31.5M (Atlantic Blue Ventures, S3 Ventures, Olympus Innovation Ventures; ~$40M+ total) \u2014 all-in-one transurethral imaging + tissue-selective therapy platform for prostate care (BPH first, expanding to focal prostate-cancer therapy), Stanford-derived CMUT ultrasound; no MD on founding/executive leadership",
       "url": "https://www.prnewswire.com/news-releases/maxq-medical-raises-31-5-million-series-a-backed-by-olympus-to-advance-its-prostate-care-platform-302855815.html",
       "date_found": "2026-08-23",
       "type": "funding_alert",
       "priority": "MEDIUM",
-      "notes": "Downgraded from mechanical HIGH (Series A, no MD) — narrow urology/procedural-device domain, weaker fit than diagnosis/triage/monitoring platforms, and AI substance is ambiguous (marketed as 'fully automated' device, not explicitly AI-branded)"
+      "notes": "Downgraded from mechanical HIGH (Series A, no MD) \u2014 narrow urology/procedural-device domain, weaker fit than diagnosis/triage/monitoring platforms, and AI substance is ambiguous (marketed as 'fully automated' device, not explicitly AI-branded)"
     },
     {
       "company": "K Health",
-      "announcement": "Late-stage round $68.9M (SEC Form D, 19 investors, no publicly named lead; $380M+ total raised since 2016) — AI-powered virtual primary care platform (symptom-checker/diagnostic chat + physician-staffed telehealth); CMO Dr. Neil Brown is a board-certified emergency medicine physician",
+      "announcement": "Late-stage round $68.9M (SEC Form D, 19 investors, no publicly named lead; $380M+ total raised since 2016) \u2014 AI-powered virtual primary care platform (symptom-checker/diagnostic chat + physician-staffed telehealth); CMO Dr. Neil Brown is a board-certified emergency medicine physician",
       "url": "https://app.dealroom.co/news/note/k-health-lands-69m-for-ai-primary-care-among-the-largest-health-rounds-in-israel",
       "date_found": "2026-08-24",
       "type": "funding_alert",
@@ -332,24 +332,24 @@
     },
     {
       "company": "Allia Health Group",
-      "announcement": "Fractional Chief Medical Officer — remote, multi-specialty virtual care network (men's/women's health/longevity), MD/DO + board certification in IM/FM/OB-GYN/Urology required",
+      "announcement": "Fractional Chief Medical Officer \u2014 remote, multi-specialty virtual care network (men's/women's health/longevity), MD/DO + board certification in IM/FM/OB-GYN/Urology required",
       "url": "https://www.fractionaljobs.io/jobs/chief-medical-officer-at-allia-health-group",
       "date_found": "2026-08-24",
       "type": "job_listing",
-      "notes": "Excluded — EM not among named qualifying specialties, possibly already filled (unverified), comp undisclosed; previously excluded 2026-08-23 for clinical-staff-supervision concerns, logging now to stop resurfacing"
+      "notes": "Excluded \u2014 EM not among named qualifying specialties, possibly already filled (unverified), comp undisclosed; previously excluded 2026-08-23 for clinical-staff-supervision concerns, logging now to stop resurfacing"
     },
     {
       "company": "Onos Health",
-      "announcement": "Series A $17M (Costanoa Ventures led; Flare Capital Partners, CVS Health Ventures) — AI clinical intelligence platform for health plans, surfaces behavioral-health care gaps/quality-improvement from claims and clinical notes; Aetna is a customer; no MD on founding team",
+      "announcement": "Series A $17M (Costanoa Ventures led; Flare Capital Partners, CVS Health Ventures) \u2014 AI clinical intelligence platform for health plans, surfaces behavioral-health care gaps/quality-improvement from claims and clinical notes; Aetna is a customer; no MD on founding team",
       "url": "https://www.prnewswire.com/news-releases/onos-health-raises-17-million-series-a-to-accelerate-adoption-of-its-behavioral-health-ai-platform-for-health-plans-302860046.html",
       "date_found": "2026-08-28",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Downgraded from mechanical HIGH (Series A, no MD) — behavioral/mental health domain de-prioritized for EM background, and product is payer-side analytics rather than direct clinical care"
+      "notes": "Downgraded from mechanical HIGH (Series A, no MD) \u2014 behavioral/mental health domain de-prioritized for EM background, and product is payer-side analytics rather than direct clinical care"
     },
     {
       "company": "Transcarent",
-      "announcement": "Medical Director, Population Health and Clinical Oversight — remote, physician leadership role (7+ yrs clinical practice) for population-health strategy/high-cost-claimant oversight/clinical decision support, no direct patient care",
+      "announcement": "Medical Director, Population Health and Clinical Oversight \u2014 remote, physician leadership role (7+ yrs clinical practice) for population-health strategy/high-cost-claimant oversight/clinical decision support, no direct patient care",
       "url": "https://startup.jobs/medical-director-population-health-and-clinical-oversight-transcarent-7999971",
       "date_found": "2026-08-30",
       "type": "job_listing",
@@ -357,7 +357,7 @@
     },
     {
       "company": "Metriport",
-      "announcement": "$26M raise (round stage not labeled; ~$28.4M cumulative) — TJ Parker/Matrix led, ARTIS + Y Combinator participating — open-source healthcare data infrastructure aggregating medical records at point of care, building AI/agentic features; no MD on founding team",
+      "announcement": "$26M raise (round stage not labeled; ~$28.4M cumulative) \u2014 TJ Parker/Matrix led, ARTIS + Y Combinator participating \u2014 open-source healthcare data infrastructure aggregating medical records at point of care, building AI/agentic features; no MD on founding team",
       "url": "https://www.prnewswire.com/news-releases/metriport-raises-26-million-to-give-clinicians-insight-into-any-patient-question-at-the-point-of-care-302862056.html",
       "date_found": "2026-08-30",
       "type": "funding_alert",
@@ -365,34 +365,34 @@
     },
     {
       "company": "Arintra",
-      "announcement": "Series B $25M (Define Ventures led) — agentic AI for autonomous medical coding/revenue assurance across the revenue cycle; no MD on founding team",
+      "announcement": "Series B $25M (Define Ventures led) \u2014 agentic AI for autonomous medical coding/revenue assurance across the revenue cycle; no MD on founding team",
       "url": "https://www.fiercehealthcare.com/finance/arintra-banks-25m-series-b-funding-round-ai-driven-revenue-assurance-platform",
       "date_found": "2026-08-30",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — medical coding/RCM/revenue-assurance product, same treatment as Amperos Health/Candid Health"
+      "notes": "Excluded \u2014 medical coding/RCM/revenue-assurance product, same treatment as Amperos Health/Candid Health"
     },
     {
       "company": "Faro AI",
-      "announcement": "Series B $37.3M (Merck GHI Fund + S32 co-led) — agentic AI infrastructure for pharma clinical-trial design/operations; possible physician co-founder (Ross A. Jaffe, unverified) but serves pharma sponsors",
+      "announcement": "Series B $37.3M (Merck GHI Fund + S32 co-led) \u2014 agentic AI infrastructure for pharma clinical-trial design/operations; possible physician co-founder (Ross A. Jaffe, unverified) but serves pharma sponsors",
       "url": "https://www.finsmes.com/2026/08/faro-ai-raises-37-3m-in-series-b-funding.html",
       "date_found": "2026-08-30",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — serves pharma clinical-trial operations/drug development sponsors, same treatment as QuantHealth"
+      "notes": "Excluded \u2014 serves pharma clinical-trial operations/drug development sponsors, same treatment as QuantHealth"
     },
     {
       "company": "Hike Medical",
-      "announcement": "Seed + Series A $22.5M (Saga Ventures led) — orthotics/prosthetics/DME supply-chain and referral-to-delivery logistics platform; no MD on founding team",
+      "announcement": "Seed + Series A $22.5M (Saga Ventures led) \u2014 orthotics/prosthetics/DME supply-chain and referral-to-delivery logistics platform; no MD on founding team",
       "url": "https://www.axios.com/pro/health-tech-deals/2026/08/24/hike-medical-series-a-raise",
       "date_found": "2026-08-30",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — supply-chain/logistics marketplace, not clearly an AI-driven clinical-care product, same treatment as Nitra"
+      "notes": "Excluded \u2014 supply-chain/logistics marketplace, not clearly an AI-driven clinical-care product, same treatment as Nitra"
     },
     {
       "company": "Avo",
-      "announcement": "Medical Director, AI Safety & Clinical Solutions — MD/DO/NP/PA license required, EHR-embedded clinical AI (Epic/athenahealth) for charting/diagnosis/decision support; AI-safety validation + customer-facing sales role, no ongoing patient care; $10M Series A (Noro-Moseley Partners, Apr 2026); $150K-$200K listed, below/at Josh's $200K floor",
+      "announcement": "Medical Director, AI Safety & Clinical Solutions \u2014 MD/DO/NP/PA license required, EHR-embedded clinical AI (Epic/athenahealth) for charting/diagnosis/decision support; AI-safety validation + customer-facing sales role, no ongoing patient care; $10M Series A (Noro-Moseley Partners, Apr 2026); $150K-$200K listed, below/at Josh's $200K floor",
       "url": "https://job-boards.greenhouse.io/avomdincdbaavo/jobs/4245557009",
       "date_found": "2026-08-31",
       "type": "job_listing",
@@ -400,7 +400,7 @@
     },
     {
       "company": "Norbert Health",
-      "announcement": "Series A $14M (William A. Marino/Cardinal Group; total raised $19M) — physical-AI robotic nursing assistants for skilled nursing facilities (contactless vitals, rounding, patient requests, EHR logging); CMO Dr. Xin He (MD) already in clinical leadership",
+      "announcement": "Series A $14M (William A. Marino/Cardinal Group; total raised $19M) \u2014 physical-AI robotic nursing assistants for skilled nursing facilities (contactless vitals, rounding, patient requests, EHR logging); CMO Dr. Xin He (MD) already in clinical leadership",
       "url": "https://www.prnewswire.com/news-releases/norbert-health-raises-14-million-series-a-to-power-autonomous-robotic-nursing-assistants-302865486.html",
       "date_found": "2026-09-03",
       "type": "funding_alert",
@@ -408,7 +408,7 @@
     },
     {
       "company": "Thyme Care",
-      "announcement": "Series E $125M+ (Morgan Health led; >$2B valuation) — value-based oncology care navigation, launched new \"Thyme Companies\" parent entity; CEO Dr. Brad Diephuis (MD) and President/CMO Dr. Bobby Green (MD) already in clinical leadership",
+      "announcement": "Series E $125M+ (Morgan Health led; >$2B valuation) \u2014 value-based oncology care navigation, launched new \"Thyme Companies\" parent entity; CEO Dr. Brad Diephuis (MD) and President/CMO Dr. Bobby Green (MD) already in clinical leadership",
       "url": "https://www.prnewswire.com/news-releases/thyme-care-closes-125-million-series-e-establishes-thyme-companies-to-broaden-its-impact-across-the-oncology-ecosystem-302867835.html",
       "date_found": "2026-09-03",
       "type": "funding_alert",
@@ -416,42 +416,42 @@
     },
     {
       "company": "Elucid",
-      "announcement": "Series D $55M (undisclosed medtech strategic led; ~$185M total) — AI cardiovascular imaging diagnostics (Plaque-IQ CT plaque visualization, BioIntegrated FFR-CT); CMO Dr. Todd C. Villines already in place",
+      "announcement": "Series D $55M (undisclosed medtech strategic led; ~$185M total) \u2014 AI cardiovascular imaging diagnostics (Plaque-IQ CT plaque visualization, BioIntegrated FFR-CT); CMO Dr. Todd C. Villines already in place",
       "url": "https://hitconsultant.net/2026/09/02/elucid-raises-55m-series-d-ai-plaque-iq-biointegrated-ffr-ct-cardiovascular-diagnostics/",
       "date_found": "2026-09-03",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded from digest — cardiac-imaging-read domain, same treatment as Vista AI/Qureight; needs a cardiologist/radiologist reader, not an EM physician"
+      "notes": "Excluded from digest \u2014 cardiac-imaging-read domain, same treatment as Vista AI/Qureight; needs a cardiologist/radiologist reader, not an EM physician"
     },
     {
       "company": "N-Power Medicine",
-      "announcement": "Series B $32M (Labcorp Venture Fund led) — external control-arm infrastructure for oncology clinical trials serving pharma sponsors; CEO Dr. Mark Lee (MD/PhD)",
+      "announcement": "Series B $32M (Labcorp Venture Fund led) \u2014 external control-arm infrastructure for oncology clinical trials serving pharma sponsors; CEO Dr. Mark Lee (MD/PhD)",
       "url": "https://hitconsultant.net/2026/09/01/n-power-medicine-raises-32m-series-b/",
       "date_found": "2026-09-03",
       "type": "funding_alert",
       "priority": "EXCLUDED",
-      "notes": "Excluded — pharma/biotech clinical-trial infrastructure serving drug-development sponsors, same treatment as QuantHealth/Faro AI"
+      "notes": "Excluded \u2014 pharma/biotech clinical-trial infrastructure serving drug-development sponsors, same treatment as QuantHealth/Faro AI"
     },
     {
       "company": "iPremom",
-      "announcement": "Seed ~$16M (Amadeus Capital Partners led) — EU-based first-trimester molecular diagnostic (cell-free RNA) predicting pregnancy complications",
+      "announcement": "Seed ~$16M (Amadeus Capital Partners led) \u2014 EU-based first-trimester molecular diagnostic (cell-free RNA) predicting pregnancy complications",
       "url": "https://www.eu-startups.com/2026/09/adressing-complicated-pregnancies-ipremom-raises-e15-million-to-advance-early-detection/",
       "date_found": "2026-09-03",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — EU-focused (not US per geography preference), lab diagnostic rather than AI software, OB domain not an EM differentiator"
+      "notes": "Excluded \u2014 EU-focused (not US per geography preference), lab diagnostic rather than AI software, OB domain not an EM differentiator"
     },
     {
       "company": "Flagler Health",
-      "announcement": "Head of Clinical Operations — explicitly recruits/manages a ~50-clinician distributed team",
-      "url": "N/A — LinkedIn/company careers posting, exact URL not captured",
+      "announcement": "Head of Clinical Operations \u2014 explicitly recruits/manages a ~50-clinician distributed team",
+      "url": "N/A \u2014 LinkedIn/company careers posting, exact URL not captured",
       "date_found": "2026-09-03",
       "type": "job_listing",
-      "notes": "Excluded — clinical-staff-supervision hard exclude; Flagler remains a HIGH-priority funding lead (2026-08-11) for future clinical-strategy/product postings, logging to stop this specific role from resurfacing"
+      "notes": "Excluded \u2014 clinical-staff-supervision hard exclude; Flagler remains a HIGH-priority funding lead (2026-08-11) for future clinical-strategy/product postings, logging to stop this specific role from resurfacing"
     },
     {
       "company": "PatientIQ",
-      "announcement": "Series C $30M (Hughes & Company; ~$56M total) — EHR-integrated patient-reported-outcomes (PRO) intelligence platform used by 870+ health systems/practices, 17M+ patients, building real-world-evidence layer for medtech/life-sciences customers; Founder/CEO Matthew Gitelis is an MD (Rush Medical College)",
+      "announcement": "Series C $30M (Hughes & Company; ~$56M total) \u2014 EHR-integrated patient-reported-outcomes (PRO) intelligence platform used by 870+ health systems/practices, 17M+ patients, building real-world-evidence layer for medtech/life-sciences customers; Founder/CEO Matthew Gitelis is an MD (Rush Medical College)",
       "url": "https://www.prnewswire.com/news-releases/patientiq-raises-30-million-series-c-to-power-the-next-generation-of-patient-reported-outcomes-intelligence-302868502.html",
       "date_found": "2026-09-04",
       "type": "funding_alert",
@@ -459,35 +459,35 @@
     },
     {
       "company": "Layer Health",
-      "announcement": "Head of Product (Boston/NYC, $260K-$300K) — LLM-based clinical-record synthesis platform; MD is a plus but not a stated requirement/differentiator for this specific req (separate MD-required Physician Informatician role exists)",
+      "announcement": "Head of Product (Boston/NYC, $260K-$300K) \u2014 LLM-based clinical-record synthesis platform; MD is a plus but not a stated requirement/differentiator for this specific req (separate MD-required Physician Informatician role exists)",
       "url": "https://job-boards.greenhouse.io/layerhealth/jobs/4548708008",
       "date_found": "2026-09-04",
       "type": "job_listing",
-      "notes": "Excluded — no stated MD requirement/differentiator for this specific role"
+      "notes": "Excluded \u2014 no stated MD requirement/differentiator for this specific role"
     },
     {
       "company": "Transcarent",
-      "announcement": "VP, Group Sales (West) — remote, $240K-$260K, employer/payer sales leadership for WayFinding platform",
+      "announcement": "VP, Group Sales (West) \u2014 remote, $240K-$260K, employer/payer sales leadership for WayFinding platform",
       "url": "https://job-boards.greenhouse.io/transcarent/jobs/5690595004",
       "date_found": "2026-09-04",
       "type": "job_listing",
-      "notes": "Excluded — pure commercial sales role, no MD/clinical requirement or differentiator stated"
+      "notes": "Excluded \u2014 pure commercial sales role, no MD/clinical requirement or differentiator stated"
     },
     {
       "company": "Impiricus",
-      "announcement": "VP, Product (DocUpdate) — remote, $163K-$266.9K, physician-engagement/health-app tools for life-sciences companies",
+      "announcement": "VP, Product (DocUpdate) \u2014 remote, $163K-$266.9K, physician-engagement/health-app tools for life-sciences companies",
       "url": "https://builtin.com/job/general-manager-product-docupdate/7068825",
       "date_found": "2026-09-04",
       "type": "job_listing",
-      "notes": "Excluded — pharma-marketing-tech adjacent rather than direct clinical care; no MD requirement stated"
+      "notes": "Excluded \u2014 pharma-marketing-tech adjacent rather than direct clinical care; no MD requirement stated"
     },
     {
       "company": "Found Health",
-      "announcement": "Medical Director — weight-management virtual care platform, 250,000+ patients; leads clinical innovation/strategy with CMO",
+      "announcement": "Medical Director \u2014 weight-management virtual care platform, 250,000+ patients; leads clinical innovation/strategy with CMO",
       "url": "https://fractionalfinders.com/jobs/found",
       "date_found": "2026-09-04",
       "type": "job_listing",
-      "notes": "Excluded — ambiguous on whether role includes direct oversight of practicing providers (common at virtual-care 'Medical Director' titles); too uncertain to include with confidence, comp not listed"
+      "notes": "Excluded \u2014 ambiguous on whether role includes direct oversight of practicing providers (common at virtual-care 'Medical Director' titles); too uncertain to include with confidence, comp not listed"
     },
     {
       "company": "Cohere Health",
@@ -495,43 +495,43 @@
       "url": "https://job-boards.greenhouse.io/coherehealth/jobs/7758603003",
       "date_found": "2026-09-04",
       "type": "job_listing",
-      "notes": "Excluded — core product is prior-authorization automation (de-prioritized per product_mission_preference), plus PM&R specialty mismatch vs. EM background"
+      "notes": "Excluded \u2014 core product is prior-authorization automation (de-prioritized per product_mission_preference), plus PM&R specialty mismatch vs. EM background"
     },
     {
       "company": "K Health",
-      "announcement": "Medical Director, Health System Partnerships — remote/NYC, $265K-$285K",
+      "announcement": "Medical Director, Health System Partnerships \u2014 remote/NYC, $265K-$285K",
       "url": "https://builtin.com/job/medical-director-health-system-partnerships/3317866",
       "date_found": "2026-09-10",
       "type": "job_listing",
-      "notes": "Excluded — explicitly involves managing clinic operations and practicing clinicians, trips clinical-staff-supervision exclusion"
+      "notes": "Excluded \u2014 explicitly involves managing clinic operations and practicing clinicians, trips clinical-staff-supervision exclusion"
     },
     {
       "company": "Viz.ai",
-      "announcement": "Strategy and Innovation Director — remote, $194,225-$225,500",
+      "announcement": "Strategy and Innovation Director \u2014 remote, $194,225-$225,500",
       "url": "https://builtin.com/job/strategy-and-innovation-director/4692094",
       "date_found": "2026-09-10",
       "type": "job_listing",
-      "notes": "Excluded — confirmed stale posting (originally posted Oct 22, 2025), outside 7-day window; also imaging/stroke-workflow domain de-prioritized"
+      "notes": "Excluded \u2014 confirmed stale posting (originally posted Oct 22, 2025), outside 7-day window; also imaging/stroke-workflow domain de-prioritized"
     },
     {
       "company": "Phronetik",
-      "announcement": "Chief Medical Officer — Plano, TX/remote, precision-medicine/bioinformatics and clinical-research-services company",
+      "announcement": "Chief Medical Officer \u2014 Plano, TX/remote, precision-medicine/bioinformatics and clinical-research-services company",
       "url": "https://wellfound.com/jobs/3395447-chief-medical-officer",
       "date_found": "2026-09-10",
       "type": "job_listing",
-      "notes": "Excluded — clinical-research-dominant role at a research-services company, not a patient-facing digital health product; comp/date unverified"
+      "notes": "Excluded \u2014 clinical-research-dominant role at a research-services company, not a patient-facing digital health product; comp/date unverified"
     },
     {
       "company": "Ladder Health",
-      "announcement": "Fractional Chief Medical Officer — remote/flexible, pediatric developmental care, physician-face/BD-partnerships role, pathway to full-time CMO",
+      "announcement": "Fractional Chief Medical Officer \u2014 remote/flexible, pediatric developmental care, physician-face/BD-partnerships role, pathway to full-time CMO",
       "url": "https://himalayas.app/companies/ladder-health/jobs/fractional-chief-medical-officer-cmo",
       "date_found": "2026-09-10",
       "type": "job_listing",
-      "notes": "Excluded — posting date unverifiable within 7-day window and comp undisclosed; otherwise a plausible fractional fit, logging to revisit if it resurfaces with a confirmed date"
+      "notes": "Excluded \u2014 posting date unverifiable within 7-day window and comp undisclosed; otherwise a plausible fractional fit, logging to revisit if it resurfaces with a confirmed date"
     },
     {
       "company": "NewDays",
-      "announcement": "Seed extension $16M (Madrona, General Catalyst; $16M total) — AI-powered dementia/cognitive-impairment care platform, monthly telehealth visits with human clinicians + AI cognitive-training companion, expanded to 6th state; no MD/DO among founders",
+      "announcement": "Seed extension $16M (Madrona, General Catalyst; $16M total) \u2014 AI-powered dementia/cognitive-impairment care platform, monthly telehealth visits with human clinicians + AI cognitive-training companion, expanded to 6th state; no MD/DO among founders",
       "url": "https://www.geekwire.com/2026/newdays-brings-its-ai-driven-dementia-care-platform-to-nevada-expands-seed-round-to-16m/",
       "date_found": "2026-09-10",
       "type": "funding_alert",
@@ -539,16 +539,16 @@
     },
     {
       "company": "Forus",
-      "announcement": "Series C $150M (Bain Capital Ventures; ~$300M+ total, $3B valuation) — AI network connecting doctors/pharmacies/payers/biopharma to close prescription-to-treatment gap (insurance navigation, financial assistance, pharmacy logistics); no MD on founding team",
+      "announcement": "Series C $150M (Bain Capital Ventures; ~$300M+ total, $3B valuation) \u2014 AI network connecting doctors/pharmacies/payers/biopharma to close prescription-to-treatment gap (insurance navigation, financial assistance, pharmacy logistics); no MD on founding team",
       "url": "https://hitconsultant.net/2026/09/08/forus-raises-150m-series-c-3b-valuation-bain-capital-ventures-ai-prescriptions/",
       "date_found": "2026-09-10",
       "type": "funding_alert",
       "priority": "MEDIUM-HIGH",
-      "notes": "Downgraded from mechanical HIGH (no MD) — medication-access/insurance-navigation infrastructure rather than clinical decision-making, same treatment as Assort Health"
+      "notes": "Downgraded from mechanical HIGH (no MD) \u2014 medication-access/insurance-navigation infrastructure rather than clinical decision-making, same treatment as Assort Health"
     },
     {
       "company": "Implicity",
-      "announcement": "Growth equity $40M (IRIS, Five Arrows) — AI-driven cardiac remote monitoring (implanted device monitoring + heart-failure prediction), 120K+ patients monitored daily, expanding US operations; CEO Dr. Arnaud Rosier (MD/PhD, cardiac electrophysiologist) already in clinical leadership",
+      "announcement": "Growth equity $40M (IRIS, Five Arrows) \u2014 AI-driven cardiac remote monitoring (implanted device monitoring + heart-failure prediction), 120K+ patients monitored daily, expanding US operations; CEO Dr. Arnaud Rosier (MD/PhD, cardiac electrophysiologist) already in clinical leadership",
       "url": "https://www.globenewswire.com/news-release/2026/09/09/3358622/0/en/implicity-secures-40m-growth-equity-funding-to-scale-its-ai-driven-cardiac-monitoring-platform-globally.html",
       "date_found": "2026-09-10",
       "type": "funding_alert",
@@ -556,25 +556,25 @@
     },
     {
       "company": "GenHealth.ai",
-      "announcement": "Series A $16.5M (Flare Capital Partners; $30M total) — AI agents for medical back-office/RCM (intake, eligibility, prior auth, billing/claims) on a claims-trained foundation model; no MD on founding team",
+      "announcement": "Series A $16.5M (Flare Capital Partners; $30M total) \u2014 AI agents for medical back-office/RCM (intake, eligibility, prior auth, billing/claims) on a claims-trained foundation model; no MD on founding team",
       "url": "https://www.mobihealthnews.com/news/genhealthai-raises-165m-expand-healthcare-ai-agents",
       "date_found": "2026-09-10",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — RCM/back-office product, same treatment as Candid Health/Arintra/Amperos Health"
+      "notes": "Excluded \u2014 RCM/back-office product, same treatment as Candid Health/Arintra/Amperos Health"
     },
     {
       "company": "Rightway Healthcare",
-      "announcement": "$155M financing (SEC Form D, no press release; ~$400M total) — care-navigation platform bundled with proprietary PBM; CMO Dr. Theodore Feldman (cardiologist) already in clinical leadership",
+      "announcement": "$155M financing (SEC Form D, no press release; ~$400M total) \u2014 care-navigation platform bundled with proprietary PBM; CMO Dr. Theodore Feldman (cardiologist) already in clinical leadership",
       "url": "https://pomegra.io/startups/rightway-healthcare-s-155m-bet-against-the-pbm-oligopoly-2026-09-10",
       "date_found": "2026-09-10",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — PBM/benefits-administration half is payer-adjacent, MD already on team, no formal funding announcement"
+      "notes": "Excluded \u2014 PBM/benefits-administration half is payer-adjacent, MD already on team, no formal funding announcement"
     },
     {
       "company": "Inspiren",
-      "announcement": "Series C $70M (NewView Capital; $225M total, $500M+ valuation) — AI-driven senior living platform (AUGi): behavioral/emergency alerts, fall detection, care utilization insights, 500+ communities",
+      "announcement": "Series C $70M (NewView Capital; $225M total, $500M+ valuation) \u2014 AI-driven senior living platform (AUGi): behavioral/emergency alerts, fall detection, care utilization insights, 500+ communities",
       "url": "http://www.prnewswire.com/news-releases/inspiren-raises-70m-series-c-to-scale-physical-ai-for-senior-living-302874801.html",
       "date_found": "2026-09-11",
       "type": "funding_alert",
@@ -582,7 +582,7 @@
     },
     {
       "company": "Vheda Health",
-      "announcement": "$47M growth investment (Agora, inaugural investment led by Neil Vangala; first institutional capital in Vheda's 13-year bootstrapped history) — outcomes/analytics platform for health plans, risk-stratifies high-risk chronic-disease members and triggers care interventions; no MD on founding/leadership team (CEO Shameet Luhar, health-informatics background)",
+      "announcement": "$47M growth investment (Agora, inaugural investment led by Neil Vangala; first institutional capital in Vheda's 13-year bootstrapped history) \u2014 outcomes/analytics platform for health plans, risk-stratifies high-risk chronic-disease members and triggers care interventions; no MD on founding/leadership team (CEO Shameet Luhar, health-informatics background)",
       "url": "https://healthtechnologynet.com/2026/09/10/vheda-health-secures-47-million-investment-from-agora-to-scale-outcomes-and-analytics-platform-for-health-plans/",
       "date_found": "2026-09-12",
       "type": "funding_alert",
@@ -590,43 +590,43 @@
     },
     {
       "company": "System",
-      "announcement": "Seed $20M (Patron, led by Amber Atherton) — vertically integrated telehealth platform prescribing personalized peptide protocols via US-licensed clinicians; no MD on founding team (CEO Adam Steinle, ex-Meta PM)",
+      "announcement": "Seed $20M (Patron, led by Amber Atherton) \u2014 vertically integrated telehealth platform prescribing personalized peptide protocols via US-licensed clinicians; no MD on founding team (CEO Adam Steinle, ex-Meta PM)",
       "url": "https://www.prnewswire.com/news-releases/system-raises-20m-in-funding-to-become-the-trusted-peptide-native-platform-for-a-new-era-302873360.html",
       "date_found": "2026-09-12",
       "type": "funding_alert",
       "priority": "LOW",
-      "notes": "Excluded — elective/longevity wellness peptide-prescribing telehealth, borders consumer-wellness exclusion, same treatment as Whoop/Throne Science"
+      "notes": "Excluded \u2014 elective/longevity wellness peptide-prescribing telehealth, borders consumer-wellness exclusion, same treatment as Whoop/Throne Science"
     },
     {
       "company": "Evvy",
-      "announcement": "Series B $40M (Catalio Capital Management led; new investors US Fertility Innovation Fund, Rethink Impact, Muse Capital, Alumni Ventures; existing LabCorp Venture Fund, General Catalyst, Left Lane Capital) — AI-powered women's-health diagnostics (at-home vaginal microbiome/mNGS testing, clinician-reviewed results), expanding into fertility research on 100K+-patient dataset; no MD in C-suite (Chief Medical Advisor Dr. Kate McLean, OB/GYN, is advisory not executive)",
+      "announcement": "Series B $40M (Catalio Capital Management led; new investors US Fertility Innovation Fund, Rethink Impact, Muse Capital, Alumni Ventures; existing LabCorp Venture Fund, General Catalyst, Left Lane Capital) \u2014 AI-powered women's-health diagnostics (at-home vaginal microbiome/mNGS testing, clinician-reviewed results), expanding into fertility research on 100K+-patient dataset; no MD in C-suite (Chief Medical Advisor Dr. Kate McLean, OB/GYN, is advisory not executive)",
       "url": "https://fortune.com/2026/09/15/evvy-series-b-womens-health-vaginal-microbiome-research/",
       "date_found": "2026-09-16",
       "type": "funding_alert",
       "priority": "MEDIUM",
-      "notes": "Downgraded from mechanical HIGH (Series B, no MD) — OB/GYN-adjacent women's-health/fertility domain is a weaker fit for EM/general-medicine background, same treatment as iPremom"
+      "notes": "Downgraded from mechanical HIGH (Series B, no MD) \u2014 OB/GYN-adjacent women's-health/fertility domain is a weaker fit for EM/general-medicine background, same treatment as iPremom"
     },
     {
       "company": "Tandem Health",
-      "announcement": "Series B $100M (Scaleup Europe Fund/EQT led; ~$160M total) — AI-native \"Clinic Operating System\" for European care providers (Sweden-founded, 10,000+ orgs across 14 countries incl. NHS, Ramsay Santé, Humanitas): pre-visit summaries, ambient documentation/coding, clinical decision support; no confirmed MD in named C-suite",
+      "announcement": "Series B $100M (Scaleup Europe Fund/EQT led; ~$160M total) \u2014 AI-native \"Clinic Operating System\" for European care providers (Sweden-founded, 10,000+ orgs across 14 countries incl. NHS, Ramsay Sant\u00e9, Humanitas): pre-visit summaries, ambient documentation/coding, clinical decision support; no confirmed MD in named C-suite",
       "url": "https://tandemhealth.ai/resources/news/tandem-health-raises-100m-to-bring-european-healthcare-into-the-ai-era-led-by-the-scaleup-europe-fund-managed-by-eqt",
       "date_found": "2026-09-16",
       "type": "funding_alert",
       "priority": "EXCLUDED",
-      "notes": "Excluded — Europe-focused product/customer base (Sweden HQ, NHS + European health systems, no stated US expansion), fails geography preference (product/role should be US-focused), same treatment as iPremom"
+      "notes": "Excluded \u2014 Europe-focused product/customer base (Sweden HQ, NHS + European health systems, no stated US expansion), fails geography preference (product/role should be US-focused), same treatment as iPremom"
     },
     {
       "company": "UrgentIQ",
-      "announcement": "Series A $15M (Five Elms Capital; $24.5M total) — AI-native EMR/clinical operating platform for urgent care centers, expanding into native billing/RCM; no MD on founding team",
+      "announcement": "Series A $15M (Five Elms Capital; $24.5M total) \u2014 AI-native EMR/clinical operating platform for urgent care centers, expanding into native billing/RCM; no MD on founding team",
       "url": "https://www.prnewswire.com/news-releases/urgentiq-announces-strategic-growth-investment-from-five-elms-capital-302876441.html",
       "date_found": "2026-09-16",
       "type": "funding_alert",
       "priority": "EXCLUDED",
-      "notes": "Excluded — same raise reviewed 2026-09-12 (deduped there without logging); AI-native EMR product hits pure-EHR-vendor exclusion, expanding into RCM/billing hits that exclusion too; logging now to stop resurfacing"
+      "notes": "Excluded \u2014 same raise reviewed 2026-09-12 (deduped there without logging); AI-native EMR product hits pure-EHR-vendor exclusion, expanding into RCM/billing hits that exclusion too; logging now to stop resurfacing"
     },
     {
       "company": "Ayble Health",
-      "announcement": "Series A $16M oversubscribed (Neon led; Unum Ventures, Upfront Ventures, M13, Cleveland Clinic Ventures, DigiTx, Accomplice; ~$27M total) — AI-powered virtual multidisciplinary clinic for chronic digestive/autoimmune conditions (IBD, IBS); clinical leadership includes Dr. Trent Haywood and Dr. Miguel Regueiro (Cleveland Clinic Digestive Disease Institute) but non-clinician Founder/CEO Sam Jactel",
+      "announcement": "Series A $16M oversubscribed (Neon led; Unum Ventures, Upfront Ventures, M13, Cleveland Clinic Ventures, DigiTx, Accomplice; ~$27M total) \u2014 AI-powered virtual multidisciplinary clinic for chronic digestive/autoimmune conditions (IBD, IBS); clinical leadership includes Dr. Trent Haywood and Dr. Miguel Regueiro (Cleveland Clinic Digestive Disease Institute) but non-clinician Founder/CEO Sam Jactel",
       "url": "https://www.prnewswire.com/news-releases/ayble-health-raises-16m-series-a-to-expand-the-nations-most-clinically-validated-virtual-digestive-health-clinic-302880020.html",
       "date_found": "2026-09-20",
       "type": "funding_alert",
@@ -634,15 +634,15 @@
     },
     {
       "company": "Tempus AI",
-      "announcement": "Senior Vice President, Medical Affairs — NY, $365K-$475K, MD + 10 yrs clinical practice required",
+      "announcement": "Senior Vice President, Medical Affairs \u2014 NY, $365K-$475K, MD + 10 yrs clinical practice required",
       "url": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Senior-Vice-President--Medical-Affairs_JR202600673",
       "date_found": "2026-09-20",
       "type": "job_listing",
-      "notes": "Excluded — requires oncology/molecular-diagnostics specialty specifically (not an EM-favorable domain), and role leans toward pharma-style KOL/medical-communications/clinical-research work rather than product or care strategy"
+      "notes": "Excluded \u2014 requires oncology/molecular-diagnostics specialty specifically (not an EM-favorable domain), and role leans toward pharma-style KOL/medical-communications/clinical-research work rather than product or care strategy"
     },
     {
       "company": "Hippocratic AI",
-      "announcement": "Clinical Customer Success Executive (MD/DO required) — remote/multi-region (Columbus, Orlando, Chicago + others), reports to CMO, min 50% travel to client sites, salary not listed",
+      "announcement": "Clinical Customer Success Executive (MD/DO required) \u2014 remote/multi-region (Columbus, Orlando, Chicago + others), reports to CMO, min 50% travel to client sites, salary not listed",
       "url": "https://jobs.generalcatalyst.com/companies/hippocractic-ai/jobs/43502381-clinical-customer-success-executive-md-do-required",
       "date_found": "2026-09-22",
       "type": "job_listing",
@@ -650,7 +650,7 @@
     },
     {
       "company": "Heidi Health",
-      "announcement": "$340M ($100M Series C equity led by Blackbird + $240M nondilutive from General Catalyst Customer Value Fund; $900M valuation) — AI \"Care Partner\" clinical-workflow platform (started as AI scribe, expanding into in-workflow AI agents for health systems); CEO/co-founder Dr. Thomas Kelly (MD) already in clinical leadership; Melbourne-founded/HQ'd but actively expanding into US health systems (Beth Israel Lahey Health, MaineGeneral)",
+      "announcement": "$340M ($100M Series C equity led by Blackbird + $240M nondilutive from General Catalyst Customer Value Fund; $900M valuation) \u2014 AI \"Care Partner\" clinical-workflow platform (started as AI scribe, expanding into in-workflow AI agents for health systems); CEO/co-founder Dr. Thomas Kelly (MD) already in clinical leadership; Melbourne-founded/HQ'd but actively expanding into US health systems (Beth Israel Lahey Health, MaineGeneral)",
       "url": "https://siliconangle.com/2026/09/22/heidi-health-nabs-340m-to-deepen-adoption-of-ai-agents-within-health-systems-globally/",
       "date_found": "2026-09-22",
       "type": "funding_alert",
@@ -658,7 +658,7 @@
     },
     {
       "company": "Teal Health",
-      "announcement": "Series A $22M (.406 Ventures led; Emerson Collective, Forerunner, Serena Ventures, MPower Partners; $45M total) — FDA-authorized at-home HPV/cervical-cancer self-collection device (\"Teal Wand\") + telehealth results/follow-up care coordination, ahead of 2027 insurance mandate; co-founder Dr. Avnesh Thakor (MD/PhD, Stanford interventional radiologist) already on founding team but not an embedded clinical exec; CEO Kara Egan is non-clinical",
+      "announcement": "Series A $22M (.406 Ventures led; Emerson Collective, Forerunner, Serena Ventures, MPower Partners; $45M total) \u2014 FDA-authorized at-home HPV/cervical-cancer self-collection device (\"Teal Wand\") + telehealth results/follow-up care coordination, ahead of 2027 insurance mandate; co-founder Dr. Avnesh Thakor (MD/PhD, Stanford interventional radiologist) already on founding team but not an embedded clinical exec; CEO Kara Egan is non-clinical",
       "url": "https://www.prnewswire.com/news-releases/teal-health-raises-22-million-series-a-to-expand-access-to-the-most-accurate-fda-authorized-at-home-hpv-cervical-cancer-screening-302885728.html",
       "date_found": "2026-09-23",
       "type": "funding_alert",
@@ -666,7 +666,7 @@
     },
     {
       "company": "UltraSight",
-      "announcement": "Series B2 $24M (Alive HealthTech Growth Fund led; Deep Insight, Star51 Capital, Connecticut Innovations, eHealth Ventures + existing Mayo Clinic Ventures, NYU, Iron Nation; ~$42M total) — AI-guided point-of-care cardiac ultrasound platform (\"Echosystem\") enabling non-cardiologist/non-sonographer clinicians (incl. EM physicians) to acquire diagnostic-quality focused echocardiograms under physician oversight, expanding into ICU/circulatory-support workflows; CMO Dr. Achi Ludomirsky (pediatric cardiologist) and VP Medical Dr. Danny Spiegelstein already in clinical leadership, CEO Davidi Vortman non-clinical",
+      "announcement": "Series B2 $24M (Alive HealthTech Growth Fund led; Deep Insight, Star51 Capital, Connecticut Innovations, eHealth Ventures + existing Mayo Clinic Ventures, NYU, Iron Nation; ~$42M total) \u2014 AI-guided point-of-care cardiac ultrasound platform (\"Echosystem\") enabling non-cardiologist/non-sonographer clinicians (incl. EM physicians) to acquire diagnostic-quality focused echocardiograms under physician oversight, expanding into ICU/circulatory-support workflows; CMO Dr. Achi Ludomirsky (pediatric cardiologist) and VP Medical Dr. Danny Spiegelstein already in clinical leadership, CEO Davidi Vortman non-clinical",
       "url": "https://hitconsultant.net/2026/09/23/ultrasight-secures-24m-series-b2-ai-cardiac-ultrasound-echosystem-jama-cardiology/",
       "date_found": "2026-09-24",
       "type": "funding_alert",
@@ -674,7 +674,7 @@
     },
     {
       "company": "Abridge",
-      "announcement": "Senior Director, Clinical Success — leads team of Clinical Success Directors (MD/DO/PA/NP) driving clinician adoption of ambient clinical-documentation AI at enterprise health systems; Chicago or US-remote, $159,800-$230,300",
+      "announcement": "Senior Director, Clinical Success \u2014 leads team of Clinical Success Directors (MD/DO/PA/NP) driving clinician adoption of ambient clinical-documentation AI at enterprise health systems; Chicago or US-remote, $159,800-$230,300",
       "url": "https://jobs.ashbyhq.com/abridge/2d3f8e61-52bd-42e6-a3a7-8b0ff4986e94",
       "date_found": "2026-09-24",
       "type": "job_listing",
@@ -682,7 +682,7 @@
     },
     {
       "company": "Precision Neuroscience",
-      "announcement": "Series D $250M oversubscribed (Pershing Square Inc. + Ackman Oxman Institute + undisclosed life-sciences fund co-led; ~$430M total, ~$1B+ valuation) — brain-computer interface (\"Layer 7 Cortical Interface\", non-penetrating cortical electrode array) for paralysis/brain-injury patients, 100+ patient procedures, advancing FDA review; co-founder/CSO Dr. Benjamin Rapoport (MD/PhD, practicing neurosurgeon, Icahn Mount Sinai) and Chief AI and Data Officer Dr. Craig Mermel (MD/PhD) already in leadership, CEO Michael Mager non-clinical",
+      "announcement": "Series D $250M oversubscribed (Pershing Square Inc. + Ackman Oxman Institute + undisclosed life-sciences fund co-led; ~$430M total, ~$1B+ valuation) \u2014 brain-computer interface (\"Layer 7 Cortical Interface\", non-penetrating cortical electrode array) for paralysis/brain-injury patients, 100+ patient procedures, advancing FDA review; co-founder/CSO Dr. Benjamin Rapoport (MD/PhD, practicing neurosurgeon, Icahn Mount Sinai) and Chief AI and Data Officer Dr. Craig Mermel (MD/PhD) already in leadership, CEO Michael Mager non-clinical",
       "url": "https://www.globenewswire.com/news-release/2026/09/24/3368254/0/en/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund.html",
       "date_found": "2026-09-25",
       "type": "funding_alert",
@@ -690,16 +690,16 @@
     },
     {
       "company": "Basalt Health",
-      "announcement": "Series A $20M (New Enterprise Associates led; Frist Cressey Ventures, 25m Health participating) — post-acute care transition/admissions automation, parses hospital-to-post-acute referrals and auto-generates clinical summaries; Lifepoint Health + ScionHealth partners, 111 markets; no MD/DO on founding team (CEO Ben Hackett, ex-Accolade product)",
+      "announcement": "Series A $20M (New Enterprise Associates led; Frist Cressey Ventures, 25m Health participating) \u2014 post-acute care transition/admissions automation, parses hospital-to-post-acute referrals and auto-generates clinical summaries; Lifepoint Health + ScionHealth partners, 111 markets; no MD/DO on founding team (CEO Ben Hackett, ex-Accolade product)",
       "url": "https://www.businesswire.com/news/home/20260924615578/en/Basalt-Health-Raises-%2420M-Series-A-Led-by-NEA-to-Speed-Post-Acute-Admissions",
       "date_found": "2026-09-28",
       "type": "funding_alert",
       "priority": "MEDIUM",
-      "notes": "Downgraded from mechanical HIGH (Series A, no MD) — referral/admissions workflow automation rather than direct clinical decision-making, same treatment as Forus/Hike Medical"
+      "notes": "Downgraded from mechanical HIGH (Series A, no MD) \u2014 referral/admissions workflow automation rather than direct clinical decision-making, same treatment as Forus/Hike Medical"
     },
     {
       "company": "Tiny Health",
-      "announcement": "Series B $33M (B Capital; $46M total) — AI microbiome testing; CMO Dr. Elisa Song",
+      "announcement": "Series B $33M (B Capital; $46M total) \u2014 AI microbiome testing; CMO Dr. Elisa Song",
       "url": "https://www.mobihealthnews.com/news/tiny-health-raises-33m-expand-microbiome-testing",
       "date_found": "2026-09-30",
       "type": "funding_alert",
@@ -707,27 +707,27 @@
     },
     {
       "company": "Healthleap",
-      "announcement": "$38M ($8M seed Sequoia/First Round + $30M Series A Hummingbird) — AI inpatient screening for missed diagnoses; no MD found on leadership",
+      "announcement": "$38M ($8M seed Sequoia/First Round + $30M Series A Hummingbird) \u2014 AI inpatient screening for missed diagnoses; no MD found on leadership",
       "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
       "date_found": "2026-10-10"
     },
     {
       "company": "General Medicine",
-      "announcement": "Series B $120M (a16z; Matrix, Eli Lilly, Mercy Health) — online healthcare store/marketplace; no MD founders",
+      "announcement": "Series B $120M (a16z; Matrix, Eli Lilly, Mercy Health) \u2014 online healthcare store/marketplace; no MD founders",
       "url": "https://www.fiercehealthcare.com/health-tech/general-medicine-banks-120m-backed-a16z-eli-lilly-and-mercy-health",
       "date_found": "2026-10-11",
       "type": "funding_alert"
     },
     {
       "company": "Vitalize",
-      "announcement": "Series A $31M (Oak HC/FT) — AI hospital staffing/capacity OS; no MD found",
+      "announcement": "Series A $31M (Oak HC/FT) \u2014 AI hospital staffing/capacity OS; no MD found",
       "url": "https://www.fiercehealthcare.com/health-tech/vitalize-secures-31m-scale-ai-powered-operating-system-hospital-staffing-and-scheduling",
       "date_found": "2026-10-11",
       "type": "funding_alert"
     },
     {
       "company": "Suki",
-      "announcement": "Series E $90M (Healthier Capital) — ambient AI scribe; CMO Kevin Wang exists",
+      "announcement": "Series E $90M (Healthier Capital) \u2014 ambient AI scribe; CMO Kevin Wang exists",
       "url": "https://www.digitalhealthnews.com/suki-raises-90m-in-series-e-funding-for-healthcare-ai-",
       "date_found": "2026-10-16",
       "type": "funding_alert",
@@ -735,7 +735,7 @@
     },
     {
       "company": "Confido Health",
-      "announcement": "Series A extension $12.5M (Z47; $22.5M total) — admin agentic AI CareOS; no MD found",
+      "announcement": "Series A extension $12.5M (Z47; $22.5M total) \u2014 admin agentic AI CareOS; no MD found",
       "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/confido-health-expands-beyond-voice-ai-agentic-platform-medical-practices",
       "date_found": "2026-10-16",
       "type": "funding_alert",
@@ -743,7 +743,7 @@
     },
     {
       "company": "Counterpart Health",
-      "announcement": "Medical Director, Clinical Product — remote, $254K-$330K, requires 10+ yrs primary care IM/FM; skipped",
+      "announcement": "Medical Director, Clinical Product \u2014 remote, $254K-$330K, requires 10+ yrs primary care IM/FM; skipped",
       "url": "https://job-boards.greenhouse.io/counterparthealth/jobs/8081360",
       "date_found": "2026-10-16",
       "type": "job_listing",
@@ -751,7 +751,7 @@
     },
     {
       "company": "Abby Care",
-      "announcement": "Series C $82M (Transformation Capital) — Medicaid family-caregiver home care; no MD found",
+      "announcement": "Series C $82M (Transformation Capital) \u2014 Medicaid family-caregiver home care; no MD found",
       "url": "https://fortune.com/2026/10/15/startup-abby-care-raises-82-million-to-turn-family-members-into-paid-caregivers/",
       "date_found": "2026-10-17",
       "type": "funding_alert",
@@ -759,7 +759,7 @@
     },
     {
       "company": "Readily",
-      "announcement": "Series A $11M (Define Ventures) — payer regulatory compliance AI; skipped, off-mission",
+      "announcement": "Series A $11M (Define Ventures) \u2014 payer regulatory compliance AI; skipped, off-mission",
       "url": "https://www.fiercehealthcare.com/finance/readily-secures-11m-series-continue-building-out-ai-regulatory-compliance-platform",
       "date_found": "2026-10-17",
       "type": "funding_alert",
@@ -767,11 +767,26 @@
     },
     {
       "company": "Brellium",
-      "announcement": "$23M — clinical AI billing-compliance auditing; skipped, off-mission",
+      "announcement": "$23M \u2014 clinical AI billing-compliance auditing; skipped, off-mission",
       "url": "https://revcycleai.com/deals-and-raises/",
       "date_found": "2026-10-17",
       "type": "funding_alert",
       "priority": "SKIP"
+    },
+    {
+      "company": "Baba",
+      "announcement": "Series A $40M (FirstMark led; CVS Health Ventures, Valtruis) \u2014 AI + clinician Medicare/Medicaid navigation; no MD found",
+      "url": "https://fiercehealthcare.com/finance/baba-nabs-40m-series-backed-firstmark-capital-and-cvs-health-ventures-medicare-ai-care",
+      "date_found": "2026-10-26",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
+    },
+    {
+      "company": "Parakeet Health",
+      "announcement": "Series A $10M (Canvas Ventures) Oct 1 \u2014 patient-access AI; skipped, outside window/off-mission",
+      "url": "https://letsdatascience.com/news/parakeet-health-raises-10-million-series-a-for-ai-patient-ac-32e19f63",
+      "date_found": "2026-10-26",
+      "type": "funding_alert"
     }
   ]
 }
