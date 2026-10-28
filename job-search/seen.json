@@ -787,6 +787,14 @@
       "url": "https://letsdatascience.com/news/parakeet-health-raises-10-million-series-a-for-ai-patient-ac-32e19f63",
       "date_found": "2026-10-26",
       "type": "funding_alert"
+    },
+    {
+      "company": "Vera Health",
+      "announcement": "Series A $28.5M (Threshold Ventures led; Optum Ventures, Mantis VC, SV Angel, YC, Gradient; ~$32M total) \u2014 evidence-graded clinical AI search; no MD found on founding team",
+      "url": "https://www.mobihealthnews.com/news/vera-health-has-secured-285m-clinical-ai-search-platform",
+      "date_found": "2026-10-28",
+      "type": "funding_alert",
+      "priority": "HIGH"
     }
   ]
 }
