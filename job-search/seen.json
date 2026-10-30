@@ -1,116 +1,6 @@
 {
   "seen_listings": [
     {
-      "company": "Hilo (by Aktiia)",
-      "announcement": "Series B extension $19M (Dell Family Office; ~$119M total) \u2014 FDA-cleared cuffless OTC blood pressure monitoring wristband, nationwide US launch Jul 21 2026; CMO Dr. Jay Shah (cardiologist) already in place",
-      "url": "https://www.linkedin.com/in/stefpetz/",
-      "date_found": "2026-07-24",
-      "type": "funding_alert",
-      "priority": "MEDIUM"
-    },
-    {
-      "company": "TidalSense",
-      "announcement": "Funding round $19M (Cross-Border Impact Ventures + returning investors BGF, Airstream Capital, Foresight Group; ~$40M total incl. grants) \u2014 AI-powered respiratory diagnostics (N-Tidal breath test for COPD/asthma), UK company entering US market; CEO Dr. Ameera Patel (MD/PhD) already on founding team",
-      "url": "https://www.mobihealthnews.com/news/tidalsense-raises-19m-improve-copd-diagnostics",
-      "date_found": "2026-07-27",
-      "type": "funding_alert",
-      "priority": "MEDIUM"
-    },
-    {
-      "company": "Karoo Health",
-      "announcement": "Series A $16.2M (oversubscribed, co-led 7wire Ventures + Allumia Ventures) \u2014 AI-native platform integrating EHR/claims/pharmacy/care-team data for early cardiac risk detection and value-based cardiology care; CMO Dr. Aneesh Pakala (cardiologist) already in place",
-      "url": "https://www.prnewswire.com/news-releases/karoo-health-announces-oversubscribed-16-2-million-series-a-co-led-by-7wire-ventures-and-allumia-ventures-302830121.html",
-      "date_found": "2026-07-28",
-      "type": "funding_alert",
-      "priority": "MEDIUM"
-    },
-    {
-      "company": "Prosper Medical",
-      "announcement": "Seed $16M (led by FUSE) \u2014 AI-powered concierge primary care, dedicated physicians + AI layer for records/labs/referrals; Co-founder/CMO Dr. James Wantuck (ex-PlushCare) already on founding team",
-      "url": "https://www.businesswire.com/news/home/20260723537845/en/Prosper-Medical-Raises-$16M-to-Bring-AI-powered-Concierge-Care-to-All",
-      "date_found": "2026-07-28",
-      "type": "funding_alert",
-      "priority": "MEDIUM"
-    },
-    {
-      "company": "Assured (Assured Health)",
-      "announcement": "Series A $19M (Insight Partners; $25M total) \u2014 agentic AI for provider credentialing and payer enrollment; no MD on founding team",
-      "url": "https://www.fiercehealthcare.com/finance/startup-assured-banks-19m-series-ai-native-credientialing-provider-enrollment",
-      "date_found": "2026-07-28",
-      "type": "funding_alert",
-      "priority": "LOW",
-      "notes": "Excluded \u2014 credentialing/payer-enrollment back-office automation, not clinical care, same treatment as Nitra"
-    },
-    {
-      "company": "Candid Health",
-      "announcement": "Series D $120M (Sixth Street Growth) \u2014 AI-powered autonomous revenue cycle management/medical billing automation; no MD on founding team",
-      "url": "https://www.businesswire.com/news/home/20260721951537/en/Candid-Health-Raises-%24120M-Led-by-Sixth-Street-Growth-to-Fuel-Autonomous-Revenue-Cycle-Management-in-Healthcare",
-      "date_found": "2026-07-28",
-      "type": "funding_alert",
-      "priority": "LOW",
-      "notes": "Excluded \u2014 RCM/billing automation, not clinical care improvement, same treatment as Amperos Health"
-    },
-    {
-      "company": "Flourish Health",
-      "announcement": "Series A $26M (B Capital, F-Prime Capital, Cherryrock Capital; $46M total) \u2014 in-home psychiatrist-led high-acuity mental health care for children/young adults in crisis; Co-founder Dr. Natalia Birgisson (MD) already in clinical leadership",
-      "url": "https://hitconsultant.net/2026/07/27/flourish-health-high-acuity-youth-mental-health/",
-      "date_found": "2026-07-28",
-      "type": "funding_alert",
-      "priority": "LOW",
-      "notes": "Excluded \u2014 mental-health-focused domain de-prioritized per config, and MD already on founding team"
-    },
-    {
-      "company": "Regard",
-      "announcement": "Medical Director, Clinical Solutions \u2014 reports to CMO, leads clinical demos/client readiness/GTM for AI diagnosis-support + note-drafting product; Series B (~$84M total)",
-      "url": "https://jobs.ashbyhq.com/regard/14002803-a322-406c-8f2a-ded757720972",
-      "date_found": "2026-07-30",
-      "type": "job_listing",
-      "score": 8
-    },
-    {
-      "company": "Abridge",
-      "announcement": "Clinical Success Director (Remote) \u2014 requires 5+ yrs practicing clinician (MD/DO/PA/NP), Epic fluency; customer-success/BD leadership for ambient documentation AI",
-      "url": "https://jobs.ashbyhq.com/abridge/0aebb9cf-5baa-41af-a9c6-f9ecd95969ae",
-      "date_found": "2026-07-30",
-      "type": "job_listing",
-      "score": 7
-    },
-    {
-      "company": "Vivid Dx",
-      "announcement": "Seed $15M (Oxford Science Enterprises + Cedars-Sinai IP Co.) \u2014 direct-from-blood sepsis/AMR diagnostics (pathogen ID + antimicrobial susceptibility via Raman spectroscopy + AI), no MD/CMO on team",
-      "url": "https://www.prnewswire.com/news-releases/vivid-dx-raises-15m-to-help-hospitals-confront-one-of-modern-medicines-most-urgent-threats-drug-resistant-infections-302836178.html",
-      "date_found": "2026-07-30",
-      "type": "funding_alert",
-      "priority": "HIGH"
-    },
-    {
-      "company": "Precise Behavioral",
-      "announcement": "$14.2M growth round (A1 Health Ventures) \u2014 physician-led behavioral health platform targeting ED boarding; Founder/CEO Dr. Nitin Nanda (MD) already in clinical leadership",
-      "url": "https://bhbusiness.com/2026/07/29/exclusive-precise-behavioral-lands-14-2-million-to-tackle-ed-boarding-eliminate-vendor-soup/",
-      "date_found": "2026-07-30",
-      "type": "funding_alert",
-      "priority": "LOW",
-      "notes": "Excluded \u2014 mental/behavioral health domain de-prioritized per config, and MD already founds/leads the company"
-    },
-    {
-      "company": "SoundHealth",
-      "announcement": "Series A $12.25M (Shangbay Capital) \u2014 FDA-cleared acoustic-resonance wearable for rhinitis/sleep; MDs Dr. Bryant Lin and Dr. Peter Hwang already in clinical leadership",
-      "url": "https://www.axios.com/pro/health-tech-deals/2026/07/28/medtech-soundhealth-series-a",
-      "date_found": "2026-07-30",
-      "type": "funding_alert",
-      "priority": "LOW",
-      "notes": "Excluded \u2014 consumer ENT/sleep wellness device, weak fit for EM background, and MDs already on team"
-    },
-    {
-      "company": "Qureight",
-      "announcement": "Series B $20M (Molten Ventures) \u2014 AI imaging platform for lung/heart clinical-trial endpoints, Cambridge UK",
-      "url": "https://tech.eu/2026/07/29/qureight-secures-20m-series-b-to-expand-ai-powered-imaging-platform-for-clinical-trials/",
-      "date_found": "2026-07-30",
-      "type": "funding_alert",
-      "priority": "LOW",
-      "notes": "Excluded \u2014 imaging + clinical-trials focus, same treatment as Vista AI; needs a radiologist/pulmonologist reader, not an EM physician"
-    },
-    {
       "company": "Function Health",
       "announcement": "Growth financing $450M (General Catalyst Customer Value Fund; ~$800M+ total, ~$2.5B valuation) \u2014 consumer membership platform for lab biomarker panels + AI longitudinal health analytics; recently acquired Getlabs and SuppCo; co-founder Mark Hyman, MD is CMO",
       "url": "https://www.prnewswire.com/news-releases/function-secures-450-million-growth-financing-from-general-catalysts-customer-value-fund-cvf-302838766.html",
@@ -795,6 +685,14 @@
       "date_found": "2026-10-28",
       "type": "funding_alert",
       "priority": "HIGH"
+    },
+    {
+      "company": "Kivo Health",
+      "announcement": "Series A $10M (Allumia Ventures led; Corewell Health Ventures, YC) \u2014 at-home AI virtual COPD/pulmonary rehab; no MD found",
+      "url": "https://homehealthcarenews.com/2026/10/at-home-virtual-care-startup-kivo-health-secures-10m-series-a-financing/",
+      "date_found": "2026-10-30",
+      "type": "funding_alert",
+      "priority": "MEDIUM"
     }
   ]
 }
